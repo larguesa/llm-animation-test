@@ -1,0 +1,151 @@
+{
+  "title": "AI-Native Delivery Pods — motion graphics 30s (T2S Tech)",
+  "generated": "2026-09-27",
+  "deliverable": {
+    "video": {
+      "path": "output/final.mp4",
+      "kind": "video",
+      "bytes": 3636021,
+      "sha256": "6a62c1385b8cf1bc78cd4ca8e2a0f68c3a9ededd4e4d7209b50616bf4e6746da",
+      "description": "MP4 H.264 1920x1080 30fps 30.0s + AAC 48kHz stereo"
+    }
+  },
+  "intermediate": [
+    {
+      "path": "build/video.mp4",
+      "kind": "video",
+      "bytes": 2876231,
+      "sha256": "1fd943bb0aab181b0f251009506f61202ff3b0568e18d267efc33eb1bf68e9cb",
+      "description": "vídeo sem áudio (saída de build/render.py --full)"
+    },
+    {
+      "path": "build/music.wav",
+      "kind": "audio",
+      "bytes": 5760044,
+      "sha256": "8fb5349338e84d2db3e4b39db8ac03971ee4caf401cf8938c2d8ad345b150be8",
+      "description": "trilha instrumental original (48kHz estéreo PCM)"
+    },
+    {
+      "path": "build/logo_on_light.png",
+      "kind": "image",
+      "bytes": 41822,
+      "sha256": "b91d2e6661ad973abba409302f9e863eb692324aa776b3561784ef302324626d",
+      "description": "logotipo oficial rasterizado (variante escura) via Chrome headless"
+    },
+    {
+      "path": "build/logo_on_dark.png",
+      "kind": "image",
+      "bytes": 38465,
+      "sha256": "304cc045399891f9511280caeaa218f6892049bbd36527b06b0af5da185a5646",
+      "description": "logotipo oficial rasterizado (variante clara) via Chrome headless"
+    }
+  ],
+  "sources": [
+    {
+      "path": "build/render.py",
+      "kind": "code",
+      "bytes": 38946,
+      "sha256": "569feb889c7a0d549df9111a4cadda945507959ba1c696a363551af135b799f5",
+      "description": "renderizador de motion graphics (Pillow+numpy)"
+    },
+    {
+      "path": "build/music.py",
+      "kind": "code",
+      "bytes": 11958,
+      "sha256": "c80880125a91de9f8562906b1c6f6800d98a26f0482e966b9d96a974ff68ec67",
+      "description": "sintetizador programático da trilha (numpy)"
+    },
+    {
+      "path": "build/rasterize_logos.py",
+      "kind": "code",
+      "bytes": 1779,
+      "sha256": "79d302a3dbe25752086efc43b9907858baca9f9140e5f5fe6d99efe2cf62ca73",
+      "description": "rasterização SVG->PNG dos logos oficiais"
+    },
+    {
+      "path": "build/manifest.py",
+      "kind": "code",
+      "bytes": 3661,
+      "sha256": "9415f5f84056506c8aae973b12d7c7a03f9aa76ccd7b3dd1577dc82eb3ec2081",
+      "description": "gerador deste manifesto"
+    }
+  ],
+  "official_inputs_frozen": [
+    {
+      "path": "input/assets/assets__t2s-logo-dark.svg",
+      "kind": "brand-asset",
+      "bytes": 3999,
+      "sha256": "3db6b2bf84ae4dbf184314e767979e1ce5f79b8e1d8fb74904be92e073fbb1e7",
+      "description": "logotipo oficial T2S (variante escura) — rasterizado exatamente, sem IA"
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-light.svg",
+      "kind": "brand-asset",
+      "bytes": 3999,
+      "sha256": "4c14c130b66f18fa2dff45fc0044f4d9082537be089cf68cf483433b7afe8ece",
+      "description": "logotipo oficial T2S (variante clara)"
+    },
+    {
+      "path": "input/assets/_next__static__chunks__23njtp8mlj1pv.css",
+      "kind": "brand-asset",
+      "bytes": 39288,
+      "sha256": "2fd0d4b587771a054396334f29b07ab6bb7819fde9caaff7d5828e25cea5f929",
+      "description": "CSS oficial do site — origem da paleta e da tipografia"
+    },
+    {
+      "path": "input/t2s-page.html",
+      "kind": "brand-asset",
+      "bytes": 21501,
+      "sha256": "2cf6b7ef90c4c6bfdc453c942d760e9c2cda472a2f7edae5dfaef964d1e10734",
+      "description": "página oficial congelada (HTML)"
+    },
+    {
+      "path": "input/t2s-page-text.txt",
+      "kind": "brand-asset",
+      "bytes": 1794,
+      "sha256": "3eb3de72190c8c92774d8daa245a615b410d41cdcba48abdf14c6c910603b456",
+      "description": "texto da página oficial congelada"
+    }
+  ],
+  "fonts": [
+    {
+      "path": "input/fonts/montserrat__Montserrat[wght].ttf",
+      "kind": "font",
+      "bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+      "description": "Montserrat variável — licença OFL em input/fonts/montserrat__OFL.txt"
+    },
+    {
+      "path": "input/fonts/rubik__Rubik[wght].ttf",
+      "kind": "font",
+      "bytes": 359804,
+      "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+      "description": "Rubik variável — licença OFL em input/fonts/rubik__OFL.txt"
+    },
+    {
+      "path": "input/fonts/montserrat__OFL.txt",
+      "kind": "license",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "description": "licença SIL Open Font License (Montserrat)"
+    },
+    {
+      "path": "input/fonts/rubik__OFL.txt",
+      "kind": "license",
+      "bytes": 4384,
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+      "description": "licença SIL Open Font License (Rubik)"
+    }
+  ],
+  "audio_license": {
+    "file": "output/music-license.md",
+    "statement": "composição instrumental original programática (build/music.py); sem samples ou gravações de terceiros; nenhuma licença externa alegada"
+  },
+  "checks": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "duration_s": 30.0,
+    "frames": 900,
+    "audio": "AAC 48000 Hz estéreo, max_volume <= -2 dBFS (sem clipping)"
+  }
+}

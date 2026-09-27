@@ -1,0 +1,16 @@
+{
+  "ink": "#3f3f3f",
+  "ink-deep": "#22262b",
+  "paper": "#f6f9fb",
+  "surface": "#fff",
+  "surface-blue": "#eaf7fc",
+  "muted": "#65717c",
+  "hairline": "#cbd6de",
+  "cyan": "#00b4e8",
+  "blue": "#3264ff",
+  "blue-deep": "#1e46bd",
+  "red": "#df3e56",
+  "amber": "#e59f24",
+  "green": "#22bd51",
+  "purple": "#5121ff"
+}

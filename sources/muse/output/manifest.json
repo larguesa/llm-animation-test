@@ -1,0 +1,127 @@
+{
+  "deliverables": [
+    {
+      "path": "output/final.mp4",
+      "bytes": 9429538,
+      "sha256": "9d5221f4b2efc9c9d871abd899b66835d00796283822e3a6fb783b6b6154991c"
+    },
+    {
+      "path": "output/README.md",
+      "bytes": 7921,
+      "sha256": "634d0f41915e462bf783e8866be2826759934c8d6e611b3e84020e6eeaba6074"
+    },
+    {
+      "path": "output/music-license.md",
+      "bytes": 1541,
+      "sha256": "f9b1511759c73287d49072968f0068ee2740a63d02e86d1cc251f24e4751d57d"
+    },
+    {
+      "path": "output/manifest.json",
+      "bytes": 3774,
+      "sha256": "self-describing (hash omitted to avoid self-reference)",
+      "note": "este arquivo"
+    }
+  ],
+  "sources": [
+    {
+      "path": "work/src_render.py",
+      "bytes": 49061,
+      "sha256": "bc07f37bd63fe05cde014de4a6772b2d1ebe3c7594e8defff720a1b0c19b220d"
+    },
+    {
+      "path": "work/src_audio.py",
+      "bytes": 13259,
+      "sha256": "5fca4b5299f2f445f25a4dd552152ce8db3665670e0a59ed42c984fd3e85b742"
+    },
+    {
+      "path": "work/audio_mix.wav",
+      "bytes": 5760044,
+      "sha256": "3d2bd62484b9d37a604eb7aa796cedd303d9ea0adcb18dc686f0088d5ed66e8f"
+    },
+    {
+      "path": "work/video.mp4",
+      "bytes": 8652765,
+      "sha256": "e9a784cd4357ce39bfbb0debf8deb2b682113f48f15cdba769d7fce8f471b2b7"
+    },
+    {
+      "path": "work/logo-light-t.png",
+      "bytes": 47062,
+      "sha256": "6e6b989a7459b0faa05b74c418d1e35874c16cfb03839a5fe2245431bec0a595"
+    },
+    {
+      "path": "work/logo-dark-t.png",
+      "bytes": 50826,
+      "sha256": "11a36706018ba86e0653017dbe5e4b40c0ea807ae234655cf77f42d5f860f99e"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "input/t2s-page.html",
+      "bytes": 21501,
+      "sha256": "2cf6b7ef90c4c6bfdc453c942d760e9c2cda472a2f7edae5dfaef964d1e10734"
+    },
+    {
+      "path": "input/t2s-page-text.txt",
+      "bytes": 1794,
+      "sha256": "3eb3de72190c8c92774d8daa245a615b410d41cdcba48abdf14c6c910603b456"
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-light.svg",
+      "bytes": 3999,
+      "sha256": "4c14c130b66f18fa2dff45fc0044f4d9082537be089cf68cf483433b7afe8ece"
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-dark.svg",
+      "bytes": 3999,
+      "sha256": "3db6b2bf84ae4dbf184314e767979e1ce5f79b8e1d8fb74904be92e073fbb1e7"
+    },
+    {
+      "path": "input/assets/_next__static__chunks__23njtp8mlj1pv.css",
+      "bytes": 39288,
+      "sha256": "2fd0d4b587771a054396334f29b07ab6bb7819fde9caaff7d5828e25cea5f929"
+    },
+    {
+      "path": "input/assets/favicon.ico",
+      "bytes": 12026,
+      "sha256": "2530a476beab1bfe4b2436684667582415cfb1bb49d699fae3b85a87764ac3d0"
+    },
+    {
+      "path": "input/assets/font__hero-office-poster.jpg",
+      "bytes": 115495,
+      "sha256": "b7b3fcf20f0c83c95cfb4c231daab9c6f17fb1013a81fa32d5ec602aef55af35"
+    },
+    {
+      "path": "input/fonts/montserrat__Montserrat[wght].ttf",
+      "bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "input/fonts/montserrat__Montserrat-Italic[wght].ttf",
+      "bytes": 762376,
+      "sha256": "51607f316bc020e59f03cbf51543eecffbea501c0b31d73e5b82927c5cca442c"
+    },
+    {
+      "path": "input/fonts/rubik__Rubik[wght].ttf",
+      "bytes": 359804,
+      "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88"
+    },
+    {
+      "path": "input/fonts/montserrat__OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "input/fonts/rubik__OFL.txt",
+      "bytes": 4384,
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb"
+    }
+  ],
+  "spec": {
+    "container": "mp4",
+    "video": "h264 yuv420p 1920x1080 30fps",
+    "audio": "aac stereo 48000Hz",
+    "duration_s": 30.0,
+    "frames": 900
+  },
+  "audio_provenance": "original programmatic composition, work/src_audio.py, no third-party material"
+}

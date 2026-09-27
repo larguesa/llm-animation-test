@@ -1,0 +1,194 @@
+{
+ "generated_utc": "2026-09-27T19:25:38+00:00",
+ "deliverable": {
+  "path": "output/final.mp4",
+  "sha256": "7b08bd64a9e7cdd114ae8a5d9428b689da136e8d8c49d0b547bb4002078d342d",
+  "bytes": 10413134,
+  "qa": {
+   "decodes_without_errors": true,
+   "video_codec": "h264",
+   "width": 1920,
+   "height": 1080,
+   "fps": "30/1",
+   "nb_frames": 900,
+   "pix_fmt": "yuv420p",
+   "container_duration_s": 30.0,
+   "video_duration_s": 30.0,
+   "audio_codec": "aac",
+   "audio_sample_rate": 48000,
+   "audio_channels": 2,
+   "audio_duration_s": 30.0,
+   "integrated_loudness_lufs": -13.8,
+   "true_peak_dbfs": -2.4,
+   "end_card_hold_mean_abs_pixel_diff_26.8s_vs_29.8s": 0.6,
+   "speech": "none — no voice, TTS or vocal samples; every sound is synthesized in src/compose.py"
+  }
+ },
+ "outputs": [
+  {
+   "path": "output/README.md",
+   "sha256": "33c67f6a5b7e467c0f682dc4cb1215e830ff403d815aaa814d915f66d8af8f21"
+  },
+  {
+   "path": "output/audio_events.json",
+   "sha256": "60a546a91e2cfb63d56a0181b3476403dee564c3c676d71548474de1bcc12f64"
+  },
+  {
+   "path": "output/final.mp4",
+   "sha256": "7b08bd64a9e7cdd114ae8a5d9428b689da136e8d8c49d0b547bb4002078d342d"
+  },
+  {
+   "path": "output/music-license.md",
+   "sha256": "f0fc83b68743b1cd31d24ce67a4b8c0e217e5540bebca77f40fcfda38ee1381e"
+  },
+  {
+   "path": "output/qa/contact_sheet_1.jpg",
+   "sha256": "d0875c27e60e1dde9b9f084c2dd580b85fbb7b082a553cdd73957ecdfc8f3766"
+  },
+  {
+   "path": "output/qa/contact_sheet_2.jpg",
+   "sha256": "0c11a3a884b5f72028b7ec9da8a1bfd04774453621b1b4399cd10563c7c21b45"
+  },
+  {
+   "path": "output/qa/end_card_t29.5.png",
+   "sha256": "66ea1758d71a388cbabd2eacec850159a649e73a06678de8b7ee113fd4797892"
+  }
+ ],
+ "sources": [
+  {
+   "path": "src/audio_synth.py",
+   "sha256": "af450cfc9e83d91fedc38e6bd4370142bcc70a657ec58921771b121983bafdfa",
+   "role": "numpy synthesis/DSP toolkit (oscillators, noise, filters, reverb, delay)"
+  },
+  {
+   "path": "src/build.sh",
+   "sha256": "f45f0ad8dc84d1d05c1a7e736bb4d371e18d19873b000cc417aa91e28d604efa",
+   "role": "one-command reproduction: compose -> render -> mux -> finalize"
+  },
+  {
+   "path": "src/compose.py",
+   "sha256": "d04473880e4ececc652bc9a0eeaec53ea705ec4300b29ae9891d78a50f08d84c",
+   "role": "original programmatic score + SFX (120 BPM) and audio event log"
+  },
+  {
+   "path": "src/finalize.py",
+   "sha256": "cbc92fac9251755d635d7d9a7a0503d7152de8d24ef77544f7657ad102450009",
+   "role": "objective QA, contact sheets from final.mp4, this manifest"
+  },
+  {
+   "path": "src/index.html",
+   "sha256": "1bcec6f6e79c94b81ca4b4773aff201c12dfb3d35051444b9443b075b5b3ccf7",
+   "role": "page shell: loads the official fonts and scene scripts onto a 1920x1080 canvas"
+  },
+  {
+   "path": "src/lib.js",
+   "sha256": "de1fac13c2f107a7245ad603cb8111553cd1e2cc94c0798414c849f35b3d95a2",
+   "role": "brand tokens from the site CSS :root, easing, kinetic-type masks, specialist/agent/checkpoint glyphs"
+  },
+  {
+   "path": "src/logo.js",
+   "sha256": "5b35de34cfa719cd6e6c6ec085f9aa96cb0f1ed66bd7f45cc65cd9faa9eb2d90",
+   "role": "official T2S logo vector paths, extracted verbatim from input/assets/assets__t2s-logo-light.svg"
+  },
+  {
+   "path": "src/main.js",
+   "sha256": "bcab2bd3d8d7d62caf997f47644f6b77024a38cc01d8783823da247943d94f92",
+   "role": "site-hero background/grid, end card (official logo + title + CTA + URL), motion-blur frame renderer"
+  },
+  {
+   "path": "src/render.py",
+   "sha256": "f853433db72e6500d8eec858de4b1c14935022153db2b48f36b2a388cd44ddea",
+   "role": "headless Chromium frame renderer piping PNG frames into ffmpeg/libx264"
+  },
+  {
+   "path": "src/scene1.js",
+   "sha256": "84ac46933a4ddda6f9bf7f42296b1138a5c691b2ac56e938c545fdf298cf4d01",
+   "role": "0-10 s: scattered demands -> aligned grid -> connected pod core; service title"
+  },
+  {
+   "path": "src/scene2.js",
+   "sha256": "f8dde40011dd3266905c0a6e709892d53e799f67767f836e70e81a1e26930638",
+   "role": "10-17 s: five roles with visual actions + human checkpoints between them"
+  },
+  {
+   "path": "src/scene3.js",
+   "sha256": "40f0c03bb8fb7730edcd11c8efb7d86550d89c5af4d971ba9c52601cc294af8d",
+   "role": "17-24.5 s: Contexto -> Entrega -> Qualidade flow, travelling artifacts, evidence row"
+  }
+ ],
+ "inputs_used": [
+  {
+   "path": "input/assets/assets__t2s-logo-light.svg",
+   "sha256": "4c14c130b66f18fa2dff45fc0044f4d9082537be089cf68cf483433b7afe8ece",
+   "use": "official logo (dark-background version), drawn from its exact vector paths"
+  },
+  {
+   "path": "input/assets/_next__static__chunks__23njtp8mlj1pv.css",
+   "sha256": "2fd0d4b587771a054396334f29b07ab6bb7819fde9caaff7d5828e25cea5f929",
+   "use": "palette (:root tokens), letter-spacing, eyebrow/button/check-list/signal-grid/hero styles"
+  },
+  {
+   "path": "input/fonts/montserrat__Montserrat[wght].ttf",
+   "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+   "use": "headline/eyebrow/button typeface (as on the site), SIL OFL 1.1"
+  },
+  {
+   "path": "input/fonts/rubik__Rubik[wght].ttf",
+   "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+   "use": "body/caption typeface (as on the site), SIL OFL 1.1"
+  },
+  {
+   "path": "input/fonts/montserrat__OFL.txt",
+   "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+   "use": "font license"
+  },
+  {
+   "path": "input/fonts/rubik__OFL.txt",
+   "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+   "use": "font license"
+  },
+  {
+   "path": "input/t2s-page-text.txt",
+   "sha256": "3eb3de72190c8c92774d8daa245a615b410d41cdcba48abdf14c6c910603b456",
+   "use": "copy source (service name, roles, human checkpoints, Context/Delivery/Quality, CTA)"
+  },
+  {
+   "path": "input/t2s-page.html",
+   "sha256": "2cf6b7ef90c4c6bfdc453c942d760e9c2cda472a2f7edae5dfaef964d1e10734",
+   "use": "page structure reference (eyebrow, check-list, service-detail rows, buttons)"
+  }
+ ],
+ "inputs_not_used": [
+  "input/assets/assets__t2s-logo-dark.svg (light-background variant)",
+  "input/assets/font__hero-office-poster.jpg (photo)",
+  "input/assets/favicon.ico"
+ ],
+ "intermediates": [
+  {
+   "path": "build/video.mp4",
+   "sha256": "675654683f77f125b074e0b912d81fe73195fd0620bd20f3a407122d1bf2dae5"
+  },
+  {
+   "path": "build/mix.wav",
+   "sha256": "cd03204a93d5d552e5e6e1b3c8cab910893cf464ef5451fb307419d3f700bde5"
+  },
+  {
+   "path": "build/music.wav",
+   "sha256": "9010c2e6a3a6f588679fa1127d923f5793b3410e5469a27ee1fe2772120880bf"
+  },
+  {
+   "path": "build/sfx.wav",
+   "sha256": "b58e4bd508f8885079ae144c76bb75011661cf2c3c4991220ae8a5e2b0429757"
+  },
+  {
+   "path": "build/audio_events.json",
+   "sha256": "60a546a91e2cfb63d56a0181b3476403dee564c3c676d71548474de1bcc12f64"
+  }
+ ],
+ "music": "original instrumental composed programmatically in src/compose.py (no third-party music, samples or loops); see output/music-license.md",
+ "tools": {
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "chromium": "Google Chrome for Testing 151.0.7922.34",
+  "python": "3.11.16"
+ }
+}

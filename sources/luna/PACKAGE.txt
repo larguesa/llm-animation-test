@@ -1,0 +1,6 @@
+Pacote preparado pelo supervisor, sem modificar as fontes do candidato.
+Preserva nomes e caminhos relativos. Consulte output/README.md quando disponível.
+Inputs oficiais e licenças OFL incluídos; marca T2S permanece de seu titular.
+Ambientes virtuais, bibliotecas nativas instaladas, logs, chaves e intermediários de vídeo não incluídos.
+Dependências e caminhos absolutos do host podem precisar de adaptação; não validado em máquina limpa.
+O MP4 final é um download separado. Missing README/manifest is a documented candidate delivery gap.

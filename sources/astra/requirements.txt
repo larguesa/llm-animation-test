@@ -1,0 +1,7 @@
+skia-python==144.0.post2
+fonttools==4.66.0
+scipy==1.17.1
+numpy==2.4.6
+uharfbuzz==0.56.2
+Pillow==12.3.0
+pybind11==3.1.0

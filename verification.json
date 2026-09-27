@@ -1,0 +1,171 @@
+{
+  "scope": "Verificação local do acervo e documentos; sem reconstrução dos candidatos.",
+  "mp4_count": 5,
+  "zip_count": 5,
+  "public_file_count": 35,
+  "selected_source_file_count": 148,
+  "extracted_file_count": 158,
+  "per_model_counts": {
+    "luna": {
+      "source_files": 22,
+      "extracted_files": 24
+    },
+    "astra": {
+      "source_files": 38,
+      "extracted_files": 40
+    },
+    "opus": {
+      "source_files": 31,
+      "extracted_files": 33
+    },
+    "muse": {
+      "source_files": 27,
+      "extracted_files": 29
+    },
+    "mimo": {
+      "source_files": 30,
+      "extracted_files": 32
+    }
+  },
+  "prompt_sha256": "7684288063461022ad603973b1069536705504b2802c84f9fc4abd7467be9d8c",
+  "original_summary_values_preserved": true,
+  "original_report_prose_preserved": true,
+  "root_public_copies_identical": true,
+  "mp4_sha256": {
+    "mimo/mimo-t2s-pods.mp4": "6a62c1385b8cf1bc78cd4ca8e2a0f68c3a9ededd4e4d7209b50616bf4e6746da",
+    "luna/luna-t2s-pods.mp4": "1f6684590de40596a700479f00ff81a9e130a1757526147e2af32a5a3e3b83ef",
+    "muse/muse-t2s-pods.mp4": "9d5221f4b2efc9c9d871abd899b66835d00796283822e3a6fb783b6b6154991c",
+    "astra/astra-t2s-pods.mp4": "991ce9d434a3d67f94b71e47a6385ff3ae43f493aa543a4bdb347b788958345a",
+    "opus/opus-t2s-pods.mp4": "7b08bd64a9e7cdd114ae8a5d9428b689da136e8d8c49d0b547bb4002078d342d"
+  },
+  "zip_sha256": {
+    "mimo/mimo-fontes.zip": "9c00beb97fc3462f8c0f6a178973bd4f5ecd67581c643d024ee3913b0baaa278",
+    "luna/luna-fontes.zip": "e0b5f3b51ef8f8cc066931fbb34e05fa4ccc614f610aa7d9b85175ac49dab6fa",
+    "muse/muse-fontes.zip": "b5071a14bc55049157c5daf2d39e90e22aaa2eff22c0bd757e7168ed3eb86716",
+    "astra/astra-fontes.zip": "9763364f0ae8609afe9a074a813fa59133c1bf2ff96d59247c2fcf333ff0bc9e",
+    "opus/opus-fontes.zip": "b80372f4b6df4c904d0903e56789105e0a1748994a74867789eef46eac0c94f5"
+  },
+  "mp4_and_zip_bytes_unchanged": true,
+  "zip_crc_and_package_hashes_passed": true,
+  "extracted_sources_byte_identical": true,
+  "credential_scan": {
+    "findings": 0,
+    "scope": "Todos os arquivos do acervo, public e conteúdo descompactado dos ZIPs; metadados Git excluídos. Comparação exata com chaves conhecidas do experimento e padrões comuns de tokens, segredos e chaves privadas. Valores não incluídos.",
+    "limitations": "Não é auditoria exaustiva; padrões não detectam todos os tipos de segredo."
+  },
+  "forbidden_files_absent": true,
+  "python_syntax_passed": true,
+  "ffprobe": {
+    "luna": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    },
+    "astra": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    },
+    "opus": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    },
+    "muse": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    },
+    "mimo": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "format": {
+        "duration": "30.000000"
+      }
+    }
+  },
+  "html_checks": {
+    "video_players": 5,
+    "comparison_rows": 5,
+    "prompt_text_exact": true,
+    "mobile_horizontal_overflow": false,
+    "table_screenshot_reviewed": true
+  },
+  "clean_machine_reproduction_tested": false,
+  "youtube_audiovisual_comparison_performed": false,
+  "perception_collection_status": "pending",
+  "git_policy": "Sem commit, push ou operação remota nesta preparação; manter repositório privado."
+}

@@ -1,0 +1,22 @@
+{
+  "objective": [
+    "MP4 decodes",
+    "1920x1080",
+    "30 fps",
+    "30 seconds",
+    "audio present, no speech",
+    "official logo and exact required text",
+    "five roles",
+    "CTA readable final 3 seconds",
+    "music provenance",
+    "reproducible sources"
+  ],
+  "subjective_weights": {
+    "narrative_and_brief": 25,
+    "motion_and_continuity": 25,
+    "brand_typography_legibility": 25,
+    "audio_and_sync": 15,
+    "finish_and_reproducibility": 10
+  },
+  "note": "One run per model, subjective assessment not general ranking. Missing/false license or invented brand claims are critical compliance failures, total capped at 50 if numeric scoring used."
+}

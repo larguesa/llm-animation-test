@@ -1,0 +1,88 @@
+Crie um vídeo de motion graphics de 30 segundos para apresentar o serviço AI-Native Delivery Pods da T2S Tech:
+
+https://t2stech.com/services/ai-native-delivery-pods
+
+Faça uma produção profissional, como a peça principal do portfólio de um excelente motion designer. Não entregue uma apresentação de slides, um protótipo ou uma simples gravação do site.
+
+CONTEXTO
+
+O serviço reúne especialistas experientes e agentes de IA supervisionados em uma equipe organizada em torno do resultado. Pode ser contratado como capacidade mensal ou uma etapa focada de entrega.
+
+A composição muda conforme o trabalho. A responsabilidade permanece clara. Contexto, entregas demonstráveis, testes, revisão e evidências operacionais fazem parte do processo.
+
+IDEIA CENTRAL
+
+“Não contrate horas. Organize uma equipe em torno do resultado.”
+
+Mostre visualmente demandas dispersas se transformando em um fluxo de entrega claro, com colaboração entre pessoas e agentes, checkpoints humanos e resultados verificáveis.
+
+IDENTIDADE VISUAL
+
+Visite a página e use o logotipo oficial, a paleta, a tipografia e os elementos gráficos reais da T2S. Preserve fielmente a identidade da marca.
+
+Não use screenshots inteiros como cenas. Decomponha elementos do site em textos, cartões, linhas, ícones e formas que possam ser animados individualmente.
+
+Como este é um serviço, não invente telas de um software proprietário. Diagramas e cartões devem funcionar como representações conceituais do processo, não como interfaces reais do produto.
+
+ROTEIRO
+
+0–5 segundos:
+Comece com cartões de demandas e dependências dispersos, criando tensão visual controlada.
+Texto: “Mais horas não resolvem tudo.”
+Os elementos começam a se alinhar no ritmo da música.
+
+5–10 segundos:
+Os cartões se organizam em um núcleo conectado.
+Revele: “AI-Native Delivery Pods”.
+Texto de apoio: “Uma equipe moldada pelo resultado.”
+Represente especialistas e agentes como elementos distintos e complementares, sem robôs humanoides.
+
+10–17 segundos:
+Expanda o núcleo em cinco funções:
+Prototyper, Builder, Sweeper, Grower e Maintainer.
+Associe cada função a uma ação visual: explorar ideias, construir, simplificar, evoluir e manter.
+Anime as funções em sequência, mantendo os nomes legíveis.
+Texto principal: “Especialistas + agentes supervisionados”.
+Mostre checkpoints humanos nos pontos de decisão, não apenas no final.
+
+17–24 segundos:
+Transforme a composição em um fluxo:
+“Contexto → Entrega → Qualidade”.
+Faça artefatos conceituais percorrerem o fluxo: protótipo, incremento de software, teste e revisão.
+Revele evidências de progresso, sem métricas fictícias.
+Texto: “Progresso visível. Responsabilidade clara.”
+
+24–30 segundos:
+Os elementos convergem para uma composição limpa com o logotipo oficial.
+Título: “AI-Native Delivery Pods”.
+CTA: “Converse com um engenheiro.”
+Endereço: “t2stech.com”.
+Reserve os três segundos finais para leitura confortável.
+
+MOTION DESIGN
+
+Use tipografia cinética, máscaras de revelação, transições por continuidade de formas, movimentos escalonados, antecipação e desaceleração precisas.
+
+Dê peso e personalidade ao movimento, com overshoot sutil e motion blur moderado. Cada transição deve transformar a composição anterior na próxima, não apenas trocar de cena.
+
+Priorize animação dos elementos em um plano estável. Use profundidade e parallax discretos apenas quando ajudarem a explicar as relações.
+
+Alterne momentos de energia com pausas para leitura. Uma ação visual dominante por cena. Evite movimento aleatório, efeitos excessivos e textos competindo pela atenção.
+
+ÁUDIO
+
+Use música instrumental eletrônica sofisticada, com licença adequada para uso comercial.
+Sincronize entradas, transformações, cortes e resolução final com os beats e as mudanças da música.
+Adicione efeitos sonoros discretos para conexões, checkpoints e transições.
+Sem locução. A mensagem deve continuar compreensível com o áudio desligado.
+
+QUALIDADE E ENTREGA
+
+Formato horizontal 16:9, 1920×1080, 30 fps, duração de 30 segundos.
+Textos em português brasileiro, preservando o nome do serviço e os nomes das cinco funções.
+
+Renderize textos e logotipo como elementos gráficos exatos, nunca como lettering gerado por IA.
+
+Não invente clientes, depoimentos, certificações, números de produtividade ou promessas de autonomia total.
+
+Entregue o vídeo final em MP4 com áudio, não apenas storyboard ou código. Revise legibilidade, ortografia, identidade visual, sincronização e ausência de elementos cortados antes de finalizar.

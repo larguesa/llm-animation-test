@@ -1,0 +1,719 @@
+{
+  "project": "T2S Tech — AI-Native Delivery Pods",
+  "source_url": "https://t2stech.com/services/ai-native-delivery-pods",
+  "live_page_consulted": {
+    "http_status": 200,
+    "saved_html": "page-live.html",
+    "reference_capture": "output/review/official-page.png",
+    "capture_is_not_used_as_video_scene": true
+  },
+  "format": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 900,
+    "duration": 30.0,
+    "pixel_format": "yuv420p",
+    "color_space": "bt709"
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": 48000,
+    "peak_linear": 0.727967381477356,
+    "clipped_samples": 0,
+    "rms_channels": [
+      0.13371209800243378,
+      0.13451015949249268
+    ],
+    "loudness": {
+      "input_i": "-16.01",
+      "input_tp": "-2.76",
+      "input_lra": "3.20",
+      "input_thresh": "-26.20",
+      "output_i": "-15.40",
+      "output_tp": "-2.33",
+      "output_lra": "2.30",
+      "output_thresh": "-25.50",
+      "normalization_type": "dynamic",
+      "target_offset": "-0.60"
+    }
+  },
+  "brand": {
+    "logo": "Official light/dark SVG rendered directly without editing paths or colors. SVG container size explicitly set from viewBox.",
+    "typography": {
+      "headings": "Montserrat",
+      "support": "Rubik"
+    },
+    "colors": {
+      "ink": "#3f3f3f",
+      "ink-deep": "#22262b",
+      "paper": "#f6f9fb",
+      "surface": "#fff",
+      "surface-blue": "#eaf7fc",
+      "muted": "#65717c",
+      "hairline": "#cbd6de",
+      "cyan": "#00b4e8",
+      "blue": "#3264ff",
+      "blue-deep": "#1e46bd",
+      "red": "#df3e56",
+      "amber": "#e59f24",
+      "green": "#22bd51",
+      "purple": "#5121ff"
+    },
+    "font_licenses": [
+      "input/fonts/montserrat__OFL.txt",
+      "input/fonts/rubik__OFL.txt"
+    ],
+    "mark_rights": "T2S brand remains its owner’s property; use in the requested authorized service presentation only."
+  },
+  "music": {
+    "provenance": "Original programmatic composition; no external samples or licensed library track.",
+    "declaration": "output/music-license.md",
+    "source": "src/music.py",
+    "score": "build/audio/score.json",
+    "bpm": 120
+  },
+  "timeline": [
+    {
+      "seconds": [
+        0,
+        5
+      ],
+      "action": "Dispersed demands align and converge"
+    },
+    {
+      "seconds": [
+        5,
+        10
+      ],
+      "action": "Outcome-centered pod, specialists and agents"
+    },
+    {
+      "seconds": [
+        10,
+        17
+      ],
+      "action": "Five role verbs and human decision checkpoints"
+    },
+    {
+      "seconds": [
+        17,
+        24
+      ],
+      "action": "Context, delivery, quality and demonstrable evidence"
+    },
+    {
+      "seconds": [
+        24,
+        30
+      ],
+      "action": "Convergence, official brand, CTA; static reading hold 27–30"
+    }
+  ],
+  "render": {
+    "renderer": "Skia CPU, HarfBuzz shaping, ffmpeg/libx264",
+    "resolution_native": true,
+    "motion_blur": "3 weighted temporal samples across a 120-degree shutter during large transforms; crisp reading holds",
+    "threads": 1,
+    "lock": "/home/hermes/entregas/t2s-pods-model-comparison/render.lock"
+  },
+  "verification": "output/review/validation.json",
+  "limitations": [
+    "No subjective audio audition was possible in this CLI: decoded sound, true peak, loudness, waveform, durations and sound-event timing were checked.",
+    "No proprietary product screen is depicted: all cards, checkpoints and artifacts are conceptual.",
+    "This package is reproducible Python/vector source, not an After Effects project."
+  ],
+  "inputs": [
+    {
+      "path": "input/assets/_next__static__chunks__23njtp8mlj1pv.css",
+      "role": "official frozen source",
+      "bytes": 39288,
+      "sha256": "2fd0d4b587771a054396334f29b07ab6bb7819fde9caaff7d5828e25cea5f929",
+      "used": true
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-dark.svg",
+      "role": "official frozen source",
+      "bytes": 3999,
+      "sha256": "3db6b2bf84ae4dbf184314e767979e1ce5f79b8e1d8fb74904be92e073fbb1e7",
+      "used": true
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-light.svg",
+      "role": "official frozen source",
+      "bytes": 3999,
+      "sha256": "4c14c130b66f18fa2dff45fc0044f4d9082537be089cf68cf483433b7afe8ece",
+      "used": true
+    },
+    {
+      "path": "input/fonts/montserrat__Montserrat-Italic[wght].ttf",
+      "role": "official frozen source",
+      "bytes": 762376,
+      "sha256": "51607f316bc020e59f03cbf51543eecffbea501c0b31d73e5b82927c5cca442c",
+      "used": false
+    },
+    {
+      "path": "input/fonts/montserrat__Montserrat[wght].ttf",
+      "role": "official frozen source",
+      "bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7",
+      "used": true
+    },
+    {
+      "path": "input/fonts/montserrat__OFL.txt",
+      "role": "official frozen source",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "used": true
+    },
+    {
+      "path": "input/fonts/rubik__OFL.txt",
+      "role": "official frozen source",
+      "bytes": 4384,
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb",
+      "used": true
+    },
+    {
+      "path": "input/fonts/rubik__Rubik[wght].ttf",
+      "role": "official frozen source",
+      "bytes": 359804,
+      "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88",
+      "used": true
+    },
+    {
+      "path": "input/t2s-page-text.txt",
+      "role": "official frozen source",
+      "bytes": 1794,
+      "sha256": "3eb3de72190c8c92774d8daa245a615b410d41cdcba48abdf14c6c910603b456",
+      "used": true
+    },
+    {
+      "path": "input/t2s-page.html",
+      "role": "official frozen source",
+      "bytes": 21501,
+      "sha256": "2cf6b7ef90c4c6bfdc453c942d760e9c2cda472a2f7edae5dfaef964d1e10734",
+      "used": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "src/bootstrap.py",
+      "role": "creative source / reproducibility",
+      "bytes": 394,
+      "sha256": "5d5a5fe11547948f75ea32b883742d0a7ed1b01e00e1aaf885de3dde6f76a955"
+    },
+    {
+      "path": "src/build_all.py",
+      "role": "creative source / reproducibility",
+      "bytes": 1896,
+      "sha256": "dc9c38b046357e685431a31dd2bbf20180b7b8cbb153696aec2764f69c2576e4"
+    },
+    {
+      "path": "src/film.py",
+      "role": "creative source / reproducibility",
+      "bytes": 19618,
+      "sha256": "6892ea054f68a76c7ed4d80c9efe4d2261b5e8fa32bddaa20a1fb80c8c3c0bc6"
+    },
+    {
+      "path": "src/graphics.py",
+      "role": "creative source / reproducibility",
+      "bytes": 7431,
+      "sha256": "0f6ad30867f219e694e2ede1af8131b0ed33c54d353fda964781a849e89cdc44"
+    },
+    {
+      "path": "src/inspect_brand.py",
+      "role": "creative source / reproducibility",
+      "bytes": 1858,
+      "sha256": "3170b356c971e38fe48d2ec4bba077cc1bdc08307bbe21847faa84d495ab2567"
+    },
+    {
+      "path": "src/manifest.py",
+      "role": "creative source / reproducibility",
+      "bytes": 3824,
+      "sha256": "1a07da3009c888189071dd94abfb5d74cdabf5ce2d8662ac43b479f0542806a4"
+    },
+    {
+      "path": "src/music.py",
+      "role": "creative source / reproducibility",
+      "bytes": 7421,
+      "sha256": "c786444c1d029cb5a4af581700af275dc07cec443d8c2098117892abc2287e3e"
+    },
+    {
+      "path": "src/playback_check.py",
+      "role": "creative source / reproducibility",
+      "bytes": 1750,
+      "sha256": "35f89083f864580e78dfa44d3dc90d1e353c13e22ed51c1c58cb1d01ce112844"
+    },
+    {
+      "path": "src/prepare.py",
+      "role": "creative source / reproducibility",
+      "bytes": 1203,
+      "sha256": "e66d95deb3b1be2a141f2741d3624469f4483f726a17c5f1e284d1adbc8769d5"
+    },
+    {
+      "path": "src/render.py",
+      "role": "creative source / reproducibility",
+      "bytes": 4181,
+      "sha256": "3b6f10f9ec61f886b6ca64739fdcb57d745a5653b908aef47ce953b6978aeb95"
+    },
+    {
+      "path": "src/verify.py",
+      "role": "creative source / reproducibility",
+      "bytes": 5198,
+      "sha256": "7e7ad1d3a65456e942496764e308e98058a491b29fedd2a22a347999ba4faaae"
+    },
+    {
+      "path": "requirements.txt",
+      "role": "pinned Python dependencies",
+      "bytes": 119,
+      "sha256": "4263ed9e84a229731c286dc1105f346d6102ddae2022eae60ed98b2fad06ade6"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "output/README.md",
+      "role": "review / documentation / intermediate",
+      "bytes": 7479,
+      "sha256": "dcc35d41cf91da62c26d36acf014a11090cbe74c1a891e1d8848ed4ec1f7b563"
+    },
+    {
+      "path": "output/final.mp4",
+      "role": "deliverable",
+      "bytes": 3626066,
+      "sha256": "991ce9d434a3d67f94b71e47a6385ff3ae43f493aa543a4bdb347b788958345a"
+    },
+    {
+      "path": "output/music-license.md",
+      "role": "review / documentation / intermediate",
+      "bytes": 1706,
+      "sha256": "b164cfe44e143d2da60383a45b397f87a5f24d842e80bf7d3e5e5c1d56754845"
+    },
+    {
+      "path": "output/review/audio-loudness.txt",
+      "role": "review / documentation / intermediate",
+      "bytes": 2129,
+      "sha256": "c1a0f7a3c047b307d85ab10f0b8c27054e95707c876f0389554085f2fc14fdbd"
+    },
+    {
+      "path": "output/review/audio-waveform.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 7124,
+      "sha256": "dd3f7def2eebfa563013f53f398425b2348222ca2f5ceaf1df814585e435da3c"
+    },
+    {
+      "path": "output/review/brand-reference.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 4677,
+      "sha256": "05c87830f24a4b24b6eada69738bd1b33f70385fe5fd8bdcc09d35bc5ef1a14e"
+    },
+    {
+      "path": "output/review/browser-playback.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 396,
+      "sha256": "eaff01ecb9dbf08a50e7f4953bd09ed9969832a47211de593e64b16ee1e38ce9"
+    },
+    {
+      "path": "output/review/contact-sheet.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 403529,
+      "sha256": "ca48f9f45baf2b7022818ebe68712c8c65044ce4c1d5c854633c32ab44e89ea0"
+    },
+    {
+      "path": "output/review/decoded-01.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 292141,
+      "sha256": "591d763777c28fee2d664aa1ccb2113e7ae35a635379622aa97cf63a43f5267c"
+    },
+    {
+      "path": "output/review/decoded-02.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 293275,
+      "sha256": "381b68d33c9ae2876b6a6ab320a83603a2a3e644c3fb5b34f66c2e054051dd35"
+    },
+    {
+      "path": "output/review/decoded-03.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 298712,
+      "sha256": "6e9fb69311c050eea03918e8dca0693a6f9ce107c8c90c597529526694c922c2"
+    },
+    {
+      "path": "output/review/decoded-04.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 190007,
+      "sha256": "c2af0b4b2092653087622b175c65c4b73a4534e1910ac70f2089db2ad9f7099a"
+    },
+    {
+      "path": "output/review/decoded-05.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 338236,
+      "sha256": "7d3e20f9b3adf7a95b331b75186dfb7e26347609fc88b333ed9b07690e01cfcf"
+    },
+    {
+      "path": "output/review/decoded-06.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 280920,
+      "sha256": "77b57abce60de631c89b3a0fbae6bc57e3aafc7458fbe13bba2e44705c2b2dae"
+    },
+    {
+      "path": "output/review/decoded-07.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 301910,
+      "sha256": "5c78552124a240a2734fdd484aefeea088f6a6b0cd1fbd6f57f0d33c63ef079e"
+    },
+    {
+      "path": "output/review/decoded-08.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 213285,
+      "sha256": "864e77b02437faa2fe969e4965f779d9740fba804dfdde2522c8452014cd72c6"
+    },
+    {
+      "path": "output/review/decoded-09.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 266633,
+      "sha256": "0f780b05550fc332c021dc633b35f0e007ba604ab99c1d5689e90ffa7ce48048"
+    },
+    {
+      "path": "output/review/decoded-10.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 278243,
+      "sha256": "d412679ca500f146ca55303874d917282f7510ec818b24e7c92554025e3fdd31"
+    },
+    {
+      "path": "output/review/decoded-11.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 273844,
+      "sha256": "8095d4b5790c6ed14a30a708a9887b4115ccf47e2183bbac46c4645dfdf070be"
+    },
+    {
+      "path": "output/review/decoded-12.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 285207,
+      "sha256": "b7bf829522a0e6aab77a96f4681dadca13104f2d167b5d722c4c808822e2147d"
+    },
+    {
+      "path": "output/review/decoded-13.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 308241,
+      "sha256": "ec398046abc85674d9daab6bd5e4758262255d7b47dfca297ed30f33d8529d6e"
+    },
+    {
+      "path": "output/review/decoded-14.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 151683,
+      "sha256": "0863f246e1b0750d8fe3d7c3f9b50fb388736cef66fed092111675eb2442b6c9"
+    },
+    {
+      "path": "output/review/decoded-15.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 149461,
+      "sha256": "0f7ccda0a98b1751a4c81f20931044c47947eed9dbc60c18d11fa6e42e3c8bc4"
+    },
+    {
+      "path": "output/review/decoded-16.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 160898,
+      "sha256": "582aec94837a7c81912be6af8d89078bce68264c248cc892b269c3f68584139e"
+    },
+    {
+      "path": "output/review/decoded-17.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 189130,
+      "sha256": "29dbb997e38446e722fc72abff17b457c2d16932721fc25a75d3655728a877b5"
+    },
+    {
+      "path": "output/review/decoded-18.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 185600,
+      "sha256": "9797a745d2ca4d805e18884487448838d03f41a8a66f3d92041e2ff566468bbf"
+    },
+    {
+      "path": "output/review/decoded-19.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 264183,
+      "sha256": "7ff6a38529631cd3f7c1b6c06f819438978e6704633be9141bb2dcc44bac13d4"
+    },
+    {
+      "path": "output/review/decoded-20.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 263858,
+      "sha256": "cdf55e8e4062de984c458c3403b5ea39891de808903d447529dc3d58e6c6a511"
+    },
+    {
+      "path": "output/review/decoded-21.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 163138,
+      "sha256": "1cf668da01c99602bd5c54ba3f5012f3f710f7bdf15139a6a131f3af1f9aecb9"
+    },
+    {
+      "path": "output/review/decoded-22.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 155012,
+      "sha256": "0789dad86c462b0c8cafb71026fef6cc60b1a41eaeb0cd22c2e61678001ea44c"
+    },
+    {
+      "path": "output/review/decoded-23.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 152742,
+      "sha256": "42a59f19be2e753958948847546174633cf193256d37493976310a0f259ad499"
+    },
+    {
+      "path": "output/review/decoded-24.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 152744,
+      "sha256": "0b9f3210c25cac4feb282340165a5a7dbbee0611bb1cfd6bfdc10b8091de5e0c"
+    },
+    {
+      "path": "output/review/ffprobe.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 3830,
+      "sha256": "16b13f9b7732fb37619be0ed7bfe3757c3f01ca04b4854d02c44bf1e12f77787"
+    },
+    {
+      "path": "output/review/final-contact-sheet.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 497436,
+      "sha256": "ef020bda07d1819e6e8883eaf143d3121e72971cbea6a26695af3bd84ae1bd35"
+    },
+    {
+      "path": "output/review/frame-00.80.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 162171,
+      "sha256": "d1e4c23c473035de2407825ab716da3da89fc422f132f5e2b9e12badf566b392"
+    },
+    {
+      "path": "output/review/frame-02.20.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 160783,
+      "sha256": "8a362c457c06faee39556bcfbd82b1f02a1b625abf442b1af5f500b24f982ea0"
+    },
+    {
+      "path": "output/review/frame-03.55.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 146826,
+      "sha256": "a39cefe6b337b91714fbc5a281116ce91cd7fe4901fde342721e2a7810f4dbe3"
+    },
+    {
+      "path": "output/review/frame-04.70.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 74245,
+      "sha256": "0ab0737e3f534ff4cb3bcd16fdd923b40b637b2956ee39f0cfe957fff48c36a7"
+    },
+    {
+      "path": "output/review/frame-05.70.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 137510,
+      "sha256": "8148de64f7a3f03e7c53626a134ce285c0f080eba57fe452a4708a502fddb5ee"
+    },
+    {
+      "path": "output/review/frame-07.50.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 175349,
+      "sha256": "453811974052a1237de6d8cf62254bed093b4542333e628efe3fca2aba304a59"
+    },
+    {
+      "path": "output/review/frame-09.60.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 112993,
+      "sha256": "0eb9697a4e976c192abdd20dfc8380b0a7e47939599b385220bcefe5f43d8e95"
+    },
+    {
+      "path": "output/review/frame-10.80.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 82231,
+      "sha256": "9cc212aff1f9e5a370316a69bbc486f6b16b7af60d1954566a42ceb6e13f9034"
+    },
+    {
+      "path": "output/review/frame-11.75.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 96619,
+      "sha256": "3d79917c58f565c1590cebbbf08854547ff1e8dd5a664a1b0f6113186ecd0d92"
+    },
+    {
+      "path": "output/review/frame-12.75.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 97536,
+      "sha256": "da7534163816c74c1eaf8c4dcaba95d9006e73d151ea2178256801850a14183e"
+    },
+    {
+      "path": "output/review/frame-13.75.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 96479,
+      "sha256": "6fd9cbc167a4b7782e92e64e59a0f038596b7730f6bddfddd91de9e329c784b4"
+    },
+    {
+      "path": "output/review/frame-14.75.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 106664,
+      "sha256": "1767728ddc3ec974d1254947fd2af48571d23bf33f55a5bef6370043933a3137"
+    },
+    {
+      "path": "output/review/frame-15.85.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 112320,
+      "sha256": "592368f6d5339084d667b3d4b604d153d26c07755add1c568300467e0c79413d"
+    },
+    {
+      "path": "output/review/frame-16.70.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 54616,
+      "sha256": "305e2f7aec68067353c55f70d232781086c848e88991719c6495daf39fc1614f"
+    },
+    {
+      "path": "output/review/frame-17.75.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 76992,
+      "sha256": "9f8900576c0c9d88190300dfbdb3a093143d61f82262aba5735c4c2e4c2b7ca1"
+    },
+    {
+      "path": "output/review/frame-18.70.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 82133,
+      "sha256": "64d3d37dfcc60300a95b40d6be0af99d963c12688ca00cfc192b4a3a63e8926a"
+    },
+    {
+      "path": "output/review/frame-19.60.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 96326,
+      "sha256": "444c17ea3e00760cfd22aed0cbdc887e7d1781d0446394f3364dc265bf9efb68"
+    },
+    {
+      "path": "output/review/frame-20.50.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 97448,
+      "sha256": "c3ac3b3871753915ac1bc8b5b001d8499ac5917317277430d7101153f8f905ef"
+    },
+    {
+      "path": "output/review/frame-21.70.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 132067,
+      "sha256": "a0170678aa089f1c53a3b9fdbc387af87686c22dfd9ccc7af1c97540ca4b74e2"
+    },
+    {
+      "path": "output/review/frame-23.25.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 131259,
+      "sha256": "038f675a469c154ed8ad20fea5010bd133bb018e614874a9059d764cd9b2610c"
+    },
+    {
+      "path": "output/review/frame-24.60.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 104400,
+      "sha256": "ad5756385b41f9b0f4f13b6746ef1fe7fa0b3a49c2e8e22f84542e6192ba8df0"
+    },
+    {
+      "path": "output/review/frame-25.80.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 72622,
+      "sha256": "30cdb5618021b9dc53b6b67e3a7aa23afbe6284a4a7cb24226a6fa870e0cd226"
+    },
+    {
+      "path": "output/review/frame-27.00.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 76148,
+      "sha256": "3675161effdc5b323e842be380f9faf55aed0fd24e66570c0eb026a775e3a2af"
+    },
+    {
+      "path": "output/review/frame-29.80.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 76148,
+      "sha256": "3675161effdc5b323e842be380f9faf55aed0fd24e66570c0eb026a775e3a2af"
+    },
+    {
+      "path": "output/review/layout-audit.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 30707,
+      "sha256": "31820d84031a4abf13ab7b25306e0ef97fc27a0db68221fae39015a34199a811"
+    },
+    {
+      "path": "output/review/official-page.png",
+      "role": "review / documentation / intermediate",
+      "bytes": 253986,
+      "sha256": "a45d0908e9695fe8368e345295d7a82d5d5fd26389eaa7c589db417b86d0df5c"
+    },
+    {
+      "path": "output/review/validation.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 1488,
+      "sha256": "2de22aa44eb74bb340257fe095bf1660256514fb6d616cfcc809c7e41db4eef1"
+    },
+    {
+      "path": "build/audio/master.wav",
+      "role": "review / documentation / intermediate",
+      "bytes": 8640102,
+      "sha256": "caba4119ee4613a6dec43f9b085a838a67830d20c4db239f9de3fd249f528318"
+    },
+    {
+      "path": "build/audio/mix-premaster.wav",
+      "role": "review / documentation / intermediate",
+      "bytes": 5760044,
+      "sha256": "03810a7e3e96bcc90157f45ea7407358994481d7ed52cb3a05e110d64c59c21e"
+    },
+    {
+      "path": "build/audio/music-original.wav",
+      "role": "review / documentation / intermediate",
+      "bytes": 5760044,
+      "sha256": "949520fc3ad4434ba23a7bb2c9ae319871fcb8522bc9f23ae2df7eb2cadc9581"
+    },
+    {
+      "path": "build/audio/score.json",
+      "role": "review / documentation / intermediate",
+      "bytes": 11176,
+      "sha256": "1dc3658d7c6bab043499575aeba54ff8e6f6fb2084dd5512fb9660e0549f560f"
+    },
+    {
+      "path": "build/audio/sound-design.wav",
+      "role": "review / documentation / intermediate",
+      "bytes": 5760044,
+      "sha256": "beab5c2cee9e66560b3466e70d7731820bde0a569977ad6354466a0ee69094a3"
+    },
+    {
+      "path": "build/fonts/montserrat-500.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 371648,
+      "sha256": "0adc5939e053d7d1a396e80833f098c7c78178e646886c06244630b3853100fe"
+    },
+    {
+      "path": "build/fonts/montserrat-600.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 372000,
+      "sha256": "6740b0996ebf6145134092bb3c32868454cc88d56a3513fd7ce0cf2fd043b761"
+    },
+    {
+      "path": "build/fonts/montserrat-700.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 371960,
+      "sha256": "00b2f170a7703549edf779691bfb9227d29c322b9f0dd3e21a078a53827c2b64"
+    },
+    {
+      "path": "build/fonts/montserrat-800.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 371952,
+      "sha256": "6c53a6a433d2e5ac516abbb59690f3db247d08782a37c2fa232bf9d848a84e2b"
+    },
+    {
+      "path": "build/fonts/rubik-400.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 212228,
+      "sha256": "4d9272b05a692c2335037034be8a6a4ab668a7d5cf4343695bb681a2cf61ae9e"
+    },
+    {
+      "path": "build/fonts/rubik-500.ttf",
+      "role": "review / documentation / intermediate",
+      "bytes": 212124,
+      "sha256": "69d6e0f0947c4506d9dd1b6537697821c22b0cedae50e8703a82e44145c39d56"
+    }
+  ],
+  "runtime": {
+    "python": "3.11.16",
+    "packages": {
+      "skia-python": "144.0.post2",
+      "fonttools": "4.66.0",
+      "scipy": "1.17.1",
+      "numpy": "2.4.6",
+      "uharfbuzz": "0.56.2",
+      "Pillow": "12.3.0"
+    }
+  }
+}

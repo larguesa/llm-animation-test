@@ -1,0 +1,135 @@
+{
+  "title": "T2S Tech — AI-Native Delivery Pods",
+  "video": "output/final.mp4",
+  "specification": {
+    "container": "MP4",
+    "video_codec": "H.264",
+    "audio_codec": "AAC",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "30/1",
+    "duration_seconds": 30,
+    "audio_sample_rate_hz": 48000,
+    "audio_channels": 2
+  },
+  "sources_and_artifacts": [
+    {
+      "path": "src/render.py",
+      "role": "reproducible animation and score synthesis source",
+      "size_bytes": 31892,
+      "sha256": "7a71ee33b4e12809806af2821f9d8125fb194b48e7d2ba02326639595357b7ac"
+    },
+    {
+      "path": "src/t2s-logo-light.png",
+      "role": "official T2S logo raster used by source",
+      "size_bytes": 38971,
+      "sha256": "dcce6a7793e0771309e7730e0be64e0de89ea58917d678c32d0552397a402190"
+    },
+    {
+      "path": "src/t2s-logo-dark.png",
+      "role": "official T2S logo raster (source asset)",
+      "size_bytes": 42932,
+      "sha256": "db5b0a351adfcbdbd9b034a03058c1b205e67157e497c4dc134ad7551bfc6e7c"
+    },
+    {
+      "path": "src/original-score.wav",
+      "role": "original procedurally synthesized stereo score",
+      "size_bytes": 5760044,
+      "sha256": "2c7ca9cdb1dd2c8c7eecc725ff49cc1da4015e26dfa8211f2b4c5b2805251e20"
+    },
+    {
+      "path": "input/assets/assets__t2s-logo-light.svg",
+      "role": "official supplied logo master",
+      "size_bytes": 3999,
+      "sha256": "4c14c130b66f18fa2dff45fc0044f4d9082537be089cf68cf483433b7afe8ece"
+    },
+    {
+      "path": "input/assets/_next__static__chunks__23njtp8mlj1pv.css",
+      "role": "official supplied website CSS; palette reference",
+      "size_bytes": 39288,
+      "sha256": "2fd0d4b587771a054396334f29b07ab6bb7819fde9caaff7d5828e25cea5f929"
+    },
+    {
+      "path": "input/t2s-page.html",
+      "role": "locally supplied service page HTML reference",
+      "size_bytes": 21501,
+      "sha256": "2cf6b7ef90c4c6bfdc453c942d760e9c2cda472a2f7edae5dfaef964d1e10734"
+    },
+    {
+      "path": "input/t2s-page-text.txt",
+      "role": "locally supplied extracted service copy reference",
+      "size_bytes": 1794,
+      "sha256": "3eb3de72190c8c92774d8daa245a615b410d41cdcba48abdf14c6c910603b456"
+    },
+    {
+      "path": "input/fonts/montserrat__Montserrat[wght].ttf",
+      "role": "font used; supplied under OFL",
+      "size_bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "input/fonts/montserrat__OFL.txt",
+      "role": "Montserrat license text",
+      "size_bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "input/fonts/rubik__Rubik[wght].ttf",
+      "role": "font used; supplied under OFL",
+      "size_bytes": 359804,
+      "sha256": "1b3a7437ba2af80e465e773ed60c5036d1ba6ace492d89046dbcf18fb31e4e88"
+    },
+    {
+      "path": "input/fonts/rubik__OFL.txt",
+      "role": "Rubik license text",
+      "size_bytes": 4384,
+      "sha256": "472cbe7c25441df63e9c7864b43eb3c0f4b3df950c66a76224e6cfe1eae843fb"
+    },
+    {
+      "path": "output/final.mp4",
+      "role": "final H.264/AAC deliverable; regenerated from current source",
+      "size_bytes": 2303622,
+      "sha256": "1f6684590de40596a700479f00ff81a9e130a1757526147e2af32a5a3e3b83ef"
+    },
+    {
+      "path": "output/README.md",
+      "role": "playback/reproduction instructions and production decisions",
+      "size_bytes": 2138,
+      "sha256": "6dc91b5157b97ca359ec4ad04793c39116e1ac8f8da31d087c1cc16967ac192e"
+    },
+    {
+      "path": "output/music-license.md",
+      "role": "honest score provenance statement",
+      "size_bytes": 1051,
+      "sha256": "afbc57b7e937c1e8ecb092498d2d903608c185406d9d2590fcc811a009d690aa"
+    }
+  ],
+  "review_stills": [
+    {
+      "path": "output/review-frames/frame-02.50s.png",
+      "size_bytes": 246751,
+      "sha256": "041f15e539c75b9f0bef78a16059cc38f6c50da0fd279f32cf2727d277c9cf93"
+    },
+    {
+      "path": "output/review-frames/frame-07.50s.png",
+      "size_bytes": 303362,
+      "sha256": "091d4af0fd47c651079e162051eaeca6a5fd88d231d6d299dec13861817edb2f"
+    },
+    {
+      "path": "output/review-frames/frame-13.95s.png",
+      "size_bytes": 248155,
+      "sha256": "a7875a3b5ccb4477c7000aae5555a94023957548736d2d747453307ae6b3c4f8"
+    },
+    {
+      "path": "output/review-frames/frame-20.50s.png",
+      "size_bytes": 250864,
+      "sha256": "0ab1dba4ea23b22a49fb98a12fc9b5c45a3dca90970e7fcef6513c5afd6f695c"
+    },
+    {
+      "path": "output/review-frames/frame-27.50s.png",
+      "size_bytes": 177876,
+      "sha256": "865df6f0bb0d0a0bc3ecdc9194cc4ccda89a8634b032712bb79e2509170ff5f9"
+    }
+  ],
+  "note": "SHA-256 and byte counts are recorded for every listed source and artifact as present when this manifest was written. The final MP4 was rerendered from src/render.py after preview review and validated with ffprobe. Official references and OFL font/license files remain in input/. Original score provenance is documented in output/music-license.md."
+}

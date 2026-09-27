@@ -1,0 +1,207 @@
+[
+ {
+  "t": 2.0,
+  "kind": "card aligns",
+  "note": "midi 62"
+ },
+ {
+  "t": 2.25,
+  "kind": "card aligns",
+  "note": "midi 64"
+ },
+ {
+  "t": 2.5,
+  "kind": "card aligns",
+  "note": "midi 69"
+ },
+ {
+  "t": 2.75,
+  "kind": "card aligns",
+  "note": "midi 74"
+ },
+ {
+  "t": 3.0,
+  "kind": "card aligns",
+  "note": "midi 76"
+ },
+ {
+  "t": 3.25,
+  "kind": "card aligns",
+  "note": "midi 81"
+ },
+ {
+  "t": 3.5,
+  "kind": "card aligns",
+  "note": "midi 86"
+ },
+ {
+  "t": 3.75,
+  "kind": "card aligns",
+  "note": "midi 88"
+ },
+ {
+  "t": 4.0,
+  "kind": "card aligns",
+  "note": "midi 93"
+ },
+ {
+  "t": 4.35,
+  "kind": "headline exits",
+  "note": ""
+ },
+ {
+  "t": 5.0,
+  "kind": "cards morph into pod core",
+  "note": ""
+ },
+ {
+  "t": 6.0,
+  "kind": "DROP: core + title",
+  "note": ""
+ },
+ {
+  "t": 6.1,
+  "kind": "connections to core",
+  "note": ""
+ },
+ {
+  "t": 9.0,
+  "kind": "title exits",
+  "note": ""
+ },
+ {
+  "t": 10.0,
+  "kind": "core expands into 5 roles",
+  "note": ""
+ },
+ {
+  "t": 10.5,
+  "kind": "role appears",
+  "note": "Prototyper"
+ },
+ {
+  "t": 11.15,
+  "kind": "human checkpoint",
+  "note": ""
+ },
+ {
+  "t": 11.5,
+  "kind": "role appears",
+  "note": "Builder"
+ },
+ {
+  "t": 12.15,
+  "kind": "human checkpoint",
+  "note": ""
+ },
+ {
+  "t": 12.5,
+  "kind": "role appears",
+  "note": "Sweeper"
+ },
+ {
+  "t": 13.15,
+  "kind": "human checkpoint",
+  "note": ""
+ },
+ {
+  "t": 13.5,
+  "kind": "role appears",
+  "note": "Grower"
+ },
+ {
+  "t": 14.15,
+  "kind": "human checkpoint",
+  "note": ""
+ },
+ {
+  "t": 14.5,
+  "kind": "role appears",
+  "note": "Maintainer"
+ },
+ {
+  "t": 16.3,
+  "kind": "roles collapse into track",
+  "note": ""
+ },
+ {
+  "t": 17.05,
+  "kind": "track locks",
+  "note": ""
+ },
+ {
+  "t": 17.25,
+  "kind": "flow node",
+  "note": "Contexto"
+ },
+ {
+  "t": 17.75,
+  "kind": "flow node",
+  "note": "Entrega"
+ },
+ {
+  "t": 18.25,
+  "kind": "flow node",
+  "note": "Qualidade"
+ },
+ {
+  "t": 18.5,
+  "kind": "artifact enters",
+  "note": "Protótipo"
+ },
+ {
+  "t": 19.25,
+  "kind": "artifact enters",
+  "note": "Incremento de software"
+ },
+ {
+  "t": 20.0,
+  "kind": "artifact enters",
+  "note": "Teste"
+ },
+ {
+  "t": 20.15,
+  "kind": "artifact verified",
+  "note": ""
+ },
+ {
+  "t": 20.75,
+  "kind": "artifact enters",
+  "note": "Revisão"
+ },
+ {
+  "t": 20.9,
+  "kind": "artifact verified",
+  "note": ""
+ },
+ {
+  "t": 21.65,
+  "kind": "artifact verified",
+  "note": ""
+ },
+ {
+  "t": 22.4,
+  "kind": "artifact verified",
+  "note": ""
+ },
+ {
+  "t": 22.4,
+  "kind": "evidence track completes",
+  "note": ""
+ },
+ {
+  "t": 24.5,
+  "kind": "RESOLUTION: official logo",
+  "note": ""
+ },
+ {
+  "t": 25.5,
+  "kind": "CTA button",
+  "note": ""
+ },
+ {
+  "t": 26.0,
+  "kind": "t2stech.com",
+  "note": ""
+ }
+]

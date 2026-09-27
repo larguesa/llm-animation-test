@@ -1,0 +1,1010 @@
+{
+  "title": "T2S Pods: cinco modelos, execução integral",
+  "generated_at": "2026-09-27T19:29:52Z",
+  "url": "https://hermes-agent-syxa.srv1786505.hstgr.cloud/entregas/t2s-pods-8a060878f97ab6d3a958/",
+  "protocol": {
+    "prompt_sha256": "7684288063461022ad603973b1069536705504b2802c84f9fc4abd7467be9d8c",
+    "provider": "OpenRouter",
+    "reasoning": "Maior esforço anunciado solicitado: max; Opus usa adaptação verbosity=max. MiMo: reasoning enabled, sem prova de controle graduado.",
+    "limits": {
+      "max_tokens": 32000,
+      "context_length": 200000,
+      "initial_turns": 120,
+      "objective_correction_turns": 40
+    },
+    "isolation": "Processos e workspaces separados, não sandboxes de segurança. Mesmo prompt e inputs oficiais congelados.",
+    "supervisor_creative_edits": false,
+    "limitations": [
+      "Uma execução por modelo, com retomadas de transporte documentadas; não é ranking geral.",
+      "Avaliação visual amostral e subjetiva, sem escuta humana nem julgamento integral de fluidez/sincronização.",
+      "Teto de saída de 32000 pode truncar raciocínio e respostas; esforço máximo não significa raciocínio ilimitado.",
+      "Composição programática declarada não equivale a parecer jurídico de direitos autorais.",
+      "Fontes empacotadas e verificadas por hash/CRC; reprodução completa em máquina limpa não foi testada."
+    ],
+    "original_prompt": "Crie um vídeo de motion graphics de 30 segundos para apresentar o serviço AI-Native Delivery Pods da T2S Tech:\n\nhttps://t2stech.com/services/ai-native-delivery-pods\n\nFaça uma produção profissional, como a peça principal do portfólio de um excelente motion designer. Não entregue uma apresentação de slides, um protótipo ou uma simples gravação do site.\n\nCONTEXTO\n\nO serviço reúne especialistas experientes e agentes de IA supervisionados em uma equipe organizada em torno do resultado. Pode ser contratado como capacidade mensal ou uma etapa focada de entrega.\n\nA composição muda conforme o trabalho. A responsabilidade permanece clara. Contexto, entregas demonstráveis, testes, revisão e evidências operacionais fazem parte do processo.\n\nIDEIA CENTRAL\n\n“Não contrate horas. Organize uma equipe em torno do resultado.”\n\nMostre visualmente demandas dispersas se transformando em um fluxo de entrega claro, com colaboração entre pessoas e agentes, checkpoints humanos e resultados verificáveis.\n\nIDENTIDADE VISUAL\n\nVisite a página e use o logotipo oficial, a paleta, a tipografia e os elementos gráficos reais da T2S. Preserve fielmente a identidade da marca.\n\nNão use screenshots inteiros como cenas. Decomponha elementos do site em textos, cartões, linhas, ícones e formas que possam ser animados individualmente.\n\nComo este é um serviço, não invente telas de um software proprietário. Diagramas e cartões devem funcionar como representações conceituais do processo, não como interfaces reais do produto.\n\nROTEIRO\n\n0–5 segundos:\nComece com cartões de demandas e dependências dispersos, criando tensão visual controlada.\nTexto: “Mais horas não resolvem tudo.”\nOs elementos começam a se alinhar no ritmo da música.\n\n5–10 segundos:\nOs cartões se organizam em um núcleo conectado.\nRevele: “AI-Native Delivery Pods”.\nTexto de apoio: “Uma equipe moldada pelo resultado.”\nRepresente especialistas e agentes como elementos distintos e complementares, sem robôs humanoides.\n\n10–17 segundos:\nExpanda o núcleo em cinco funções:\nPrototyper, Builder, Sweeper, Grower e Maintainer.\nAssocie cada função a uma ação visual: explorar ideias, construir, simplificar, evoluir e manter.\nAnime as funções em sequência, mantendo os nomes legíveis.\nTexto principal: “Especialistas + agentes supervisionados”.\nMostre checkpoints humanos nos pontos de decisão, não apenas no final.\n\n17–24 segundos:\nTransforme a composição em um fluxo:\n“Contexto → Entrega → Qualidade”.\nFaça artefatos conceituais percorrerem o fluxo: protótipo, incremento de software, teste e revisão.\nRevele evidências de progresso, sem métricas fictícias.\nTexto: “Progresso visível. Responsabilidade clara.”\n\n24–30 segundos:\nOs elementos convergem para uma composição limpa com o logotipo oficial.\nTítulo: “AI-Native Delivery Pods”.\nCTA: “Converse com um engenheiro.”\nEndereço: “t2stech.com”.\nReserve os três segundos finais para leitura confortável.\n\nMOTION DESIGN\n\nUse tipografia cinética, máscaras de revelação, transições por continuidade de formas, movimentos escalonados, antecipação e desaceleração precisas.\n\nDê peso e personalidade ao movimento, com overshoot sutil e motion blur moderado. Cada transição deve transformar a composição anterior na próxima, não apenas trocar de cena.\n\nPriorize animação dos elementos em um plano estável. Use profundidade e parallax discretos apenas quando ajudarem a explicar as relações.\n\nAlterne momentos de energia com pausas para leitura. Uma ação visual dominante por cena. Evite movimento aleatório, efeitos excessivos e textos competindo pela atenção.\n\nÁUDIO\n\nUse música instrumental eletrônica sofisticada, com licença adequada para uso comercial.\nSincronize entradas, transformações, cortes e resolução final com os beats e as mudanças da música.\nAdicione efeitos sonoros discretos para conexões, checkpoints e transições.\nSem locução. A mensagem deve continuar compreensível com o áudio desligado.\n\nQUALIDADE E ENTREGA\n\nFormato horizontal 16:9, 1920×1080, 30 fps, duração de 30 segundos.\nTextos em português brasileiro, preservando o nome do serviço e os nomes das cinco funções.\n\nRenderize textos e logotipo como elementos gráficos exatos, nunca como lettering gerado por IA.\n\nNão invente clientes, depoimentos, certificações, números de produtividade ou promessas de autonomia total.\n\nEntregue o vídeo final em MP4 com áudio, não apenas storyboard ou código. Revise legibilidade, ortografia, identidade visual, sincronização e ausência de elementos cortados antes de finalizar.\n",
+    "elapsed_time_definition": "Tempo total de ponta a ponta: ended_at menos started_at, em UTC. Inclui filas, retries, pausas, renderização e correções dentro desse intervalo; não é latência pura de inferência nem tempo exclusivo de render. Não inclui preparação anterior ao início do candidato nem publicação posterior ao término.",
+    "presentation_order": [
+      "luna",
+      "astra",
+      "opus",
+      "muse",
+      "mimo"
+    ],
+    "strategy_basis": "Síntese dos READMEs e fontes empacotadas dos candidatos, não acesso ao raciocínio interno dos modelos. Intervenções conforme registros do experimento."
+  },
+  "accounting": {
+    "at": "2026-09-27T19:28:58Z",
+    "candidates": {
+      "luna": {
+        "model": "openai/gpt-6-luna",
+        "key_readings": [
+          {
+            "http": 200,
+            "usage": 0.467659825
+          }
+        ],
+        "key_usage_total_usd": 0.467659825,
+        "phase_cost_usd": {
+          "production": 0.42619279,
+          "correction-1": 0.041467035
+        },
+        "telemetry": {
+          "telemetry": {
+            "calls": 120,
+            "api_error_events": 5,
+            "tokens": {
+              "input_tokens": 360,
+              "prompt_tokens": 9681066,
+              "output_tokens": 179760,
+              "reasoning_tokens": 85554,
+              "cache_read_tokens": 9364779,
+              "cache_write_tokens": 315927
+            },
+            "effective_models": [
+              "openai/gpt-6-luna"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "correction-1-telemetry": {
+            "calls": 18,
+            "api_error_events": 1,
+            "tokens": {
+              "input_tokens": 54,
+              "prompt_tokens": 1660337,
+              "output_tokens": 12175,
+              "reasoning_tokens": 6631,
+              "cache_read_tokens": 1631246,
+              "cache_write_tokens": 29037
+            },
+            "effective_models": [
+              "openai/gpt-6-luna"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          }
+        },
+        "hermes_main_session": {
+          "model": "openai/gpt-6-luna",
+          "billing_provider": "openrouter",
+          "billing_mode": null,
+          "estimated_cost_usd": 0.24908965,
+          "actual_cost_usd": null,
+          "cost_status": "estimated",
+          "api_call_count": 138,
+          "tool_call_count": 157
+        },
+        "accounting_note": "Dedicated key includes main inference, auxiliary perception/compression, and any billed truncated/error calls. Phase boundaries use key usage snapshots; timing may lag. API hook does not expose generation ID or usage.cost, so exact reconciliation by generation is unavailable. Token totals cover main API hooks only; reasoning is a subset of output, not additive."
+      },
+      "astra": {
+        "model": "openai/gpt-6-astra",
+        "key_readings": [
+          {
+            "http": 200,
+            "usage": 10.6071655
+          }
+        ],
+        "key_usage_total_usd": 10.6071655,
+        "phase_cost_usd": {
+          "production": 4.589265,
+          "recovery-1": 1.5898,
+          "recovery-2": 0.0,
+          "recovery-3": 1.0735345,
+          "recovery-4": 0.6252205,
+          "recovery-5": 2.4119255,
+          "recovery-6": 0.31742
+        },
+        "telemetry": {
+          "recovery-4-telemetry": {
+            "calls": 4,
+            "api_error_events": 5,
+            "tokens": {
+              "input_tokens": 12,
+              "prompt_tokens": 407290,
+              "output_tokens": 3341,
+              "reasoning_tokens": 989,
+              "cache_read_tokens": 402863,
+              "cache_write_tokens": 4415
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "recovery-1-telemetry": {
+            "calls": 3,
+            "api_error_events": 4,
+            "tokens": {
+              "input_tokens": 9,
+              "prompt_tokens": 274018,
+              "output_tokens": 2071,
+              "reasoning_tokens": 787,
+              "cache_read_tokens": 266445,
+              "cache_write_tokens": 7564
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "recovery-3-telemetry": {
+            "calls": 4,
+            "api_error_events": 3,
+            "tokens": {
+              "input_tokens": 12,
+              "prompt_tokens": 387934,
+              "output_tokens": 2235,
+              "reasoning_tokens": 0,
+              "cache_read_tokens": 383742,
+              "cache_write_tokens": 4180
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "recovery-5-telemetry": {
+            "calls": 11,
+            "api_error_events": 5,
+            "tokens": {
+              "input_tokens": 33,
+              "prompt_tokens": 1210368,
+              "output_tokens": 7678,
+              "reasoning_tokens": 3165,
+              "cache_read_tokens": 1198053,
+              "cache_write_tokens": 12282
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "recovery-6-telemetry": {
+            "calls": 2,
+            "api_error_events": 1,
+            "tokens": {
+              "input_tokens": 6,
+              "prompt_tokens": 234556,
+              "output_tokens": 1003,
+              "reasoning_tokens": 391,
+              "cache_read_tokens": 231710,
+              "cache_write_tokens": 2840
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "telemetry": {
+            "calls": 17,
+            "api_error_events": 5,
+            "tokens": {
+              "input_tokens": 51,
+              "prompt_tokens": 801989,
+              "output_tokens": 42954,
+              "reasoning_tokens": 23259,
+              "cache_read_tokens": 715595,
+              "cache_write_tokens": 86343
+            },
+            "effective_models": [
+              "openai/gpt-6-astra"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "recovery-2-telemetry": {
+            "calls": 0,
+            "api_error_events": 3,
+            "tokens": {
+              "input_tokens": 0,
+              "prompt_tokens": 0,
+              "output_tokens": 0,
+              "reasoning_tokens": 0,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0
+            },
+            "effective_models": [],
+            "providers": [],
+            "generation_ids": [],
+            "response_cost_usd": null
+          }
+        },
+        "hermes_main_session": {
+          "model": "openai/gpt-6-astra",
+          "billing_provider": "openrouter",
+          "billing_mode": null,
+          "estimated_cost_usd": 7.634037999999999,
+          "actual_cost_usd": null,
+          "cost_status": "estimated",
+          "api_call_count": 41,
+          "tool_call_count": 88
+        },
+        "accounting_note": "Dedicated key includes main inference, auxiliary perception/compression, and any billed truncated/error calls. Phase boundaries use key usage snapshots; timing may lag. API hook does not expose generation ID or usage.cost, so exact reconciliation by generation is unavailable. Token totals cover main API hooks only; reasoning is a subset of output, not additive."
+      },
+      "opus": {
+        "model": "anthropic/claude-opus-5.5",
+        "key_readings": [
+          {
+            "http": 200,
+            "usage": 25.918514
+          }
+        ],
+        "key_usage_total_usd": 25.918514,
+        "phase_cost_usd": {
+          "production": 3.9084818,
+          "correction-1": 22.0100322
+        },
+        "telemetry": {
+          "telemetry": {
+            "calls": 8,
+            "api_error_events": 2,
+            "tokens": {
+              "input_tokens": 18,
+              "prompt_tokens": 189412,
+              "output_tokens": 20528,
+              "reasoning_tokens": 18148,
+              "cache_read_tokens": 146387,
+              "cache_write_tokens": 43007
+            },
+            "effective_models": [
+              "anthropic/claude-opus-5.5"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "correction-1-telemetry": {
+            "calls": 37,
+            "api_error_events": 6,
+            "tokens": {
+              "input_tokens": 80,
+              "prompt_tokens": 3122115,
+              "output_tokens": 310800,
+              "reasoning_tokens": 249252,
+              "cache_read_tokens": 2173779,
+              "cache_write_tokens": 948256
+            },
+            "effective_models": [
+              "anthropic/claude-opus-5.5"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          }
+        },
+        "hermes_main_session": {
+          "model": "anthropic/claude-opus-5.5",
+          "billing_provider": "openrouter",
+          "billing_mode": null,
+          "estimated_cost_usd": 12.047300199999999,
+          "actual_cost_usd": null,
+          "cost_status": "estimated",
+          "api_call_count": 45,
+          "tool_call_count": 54
+        },
+        "accounting_note": "Dedicated key includes main inference, auxiliary perception/compression, and any billed truncated/error calls. Phase boundaries use key usage snapshots; timing may lag. API hook does not expose generation ID or usage.cost, so exact reconciliation by generation is unavailable. Token totals cover main API hooks only; reasoning is a subset of output, not additive."
+      },
+      "muse": {
+        "model": "meta/muse-spark-1.3",
+        "key_readings": [
+          {
+            "http": 200,
+            "usage": 3.1216316
+          }
+        ],
+        "key_usage_total_usd": 3.1216316,
+        "phase_cost_usd": {
+          "production": 1.96971095,
+          "correction-1": 1.15192065
+        },
+        "telemetry": {
+          "telemetry": {
+            "calls": 56,
+            "api_error_events": 5,
+            "tokens": {
+              "input_tokens": 588736,
+              "prompt_tokens": 4074134,
+              "output_tokens": 86115,
+              "reasoning_tokens": 40120,
+              "cache_read_tokens": 3485398,
+              "cache_write_tokens": 0
+            },
+            "effective_models": [
+              "meta/muse-spark-1.3"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          },
+          "correction-1-telemetry": {
+            "calls": 35,
+            "api_error_events": 1,
+            "tokens": {
+              "input_tokens": 396482,
+              "prompt_tokens": 2302788,
+              "output_tokens": 18424,
+              "reasoning_tokens": 8403,
+              "cache_read_tokens": 1906306,
+              "cache_write_tokens": 0
+            },
+            "effective_models": [
+              "meta/muse-spark-1.3"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          }
+        },
+        "hermes_main_session": {
+          "model": "meta/muse-spark-1.3",
+          "billing_provider": "openrouter",
+          "billing_mode": null,
+          "estimated_cost_usd": 2.4845688499999996,
+          "actual_cost_usd": null,
+          "cost_status": "estimated",
+          "api_call_count": 91,
+          "tool_call_count": 75
+        },
+        "accounting_note": "Dedicated key includes main inference, auxiliary perception/compression, and any billed truncated/error calls. Phase boundaries use key usage snapshots; timing may lag. API hook does not expose generation ID or usage.cost, so exact reconciliation by generation is unavailable. Token totals cover main API hooks only; reasoning is a subset of output, not additive."
+      },
+      "mimo": {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "key_readings": [
+          {
+            "http": 200,
+            "usage": 0.330521967
+          }
+        ],
+        "key_usage_total_usd": 0.330521967,
+        "phase_cost_usd": {
+          "production": 0.330521967
+        },
+        "telemetry": {
+          "telemetry": {
+            "calls": 85,
+            "api_error_events": 4,
+            "tokens": {
+              "input_tokens": 363866,
+              "prompt_tokens": 5834394,
+              "output_tokens": 106054,
+              "reasoning_tokens": 58329,
+              "cache_read_tokens": 5470528,
+              "cache_write_tokens": 0
+            },
+            "effective_models": [
+              "xiaomi/mimo-v2.6-pro"
+            ],
+            "providers": [
+              "openrouter"
+            ],
+            "generation_ids": [],
+            "response_cost_usd": null
+          }
+        },
+        "hermes_main_session": {
+          "model": "xiaomi/mimo-v2.6-pro",
+          "billing_provider": "openrouter",
+          "billing_mode": null,
+          "estimated_cost_usd": 0.2702425908000002,
+          "actual_cost_usd": null,
+          "cost_status": "estimated",
+          "api_call_count": 85,
+          "tool_call_count": 95
+        },
+        "accounting_note": "Dedicated key includes main inference, auxiliary perception/compression, and any billed truncated/error calls. Phase boundaries use key usage snapshots; timing may lag. API hook does not expose generation ID or usage.cost, so exact reconciliation by generation is unavailable. Token totals cover main API hooks only; reasoning is a subset of output, not additive."
+      }
+    },
+    "diagnostics": {
+      "dedicated_key_usd": 0.0479598,
+      "http": 200
+    },
+    "supervisors": [
+      {
+        "id": "20260927_145016_e070cf",
+        "title": "T2S Pods - Supervisao comparativo de cinco modelos",
+        "model": "openai/gpt-6-astra",
+        "billing_provider": "openrouter",
+        "input_tokens": 163,
+        "output_tokens": 413064,
+        "reasoning_tokens": 385088,
+        "cache_read_tokens": 16429576,
+        "cache_write_tokens": 371373,
+        "estimated_cost_usd": 14.379901499999999,
+        "actual_cost_usd": null,
+        "cost_status": "estimated"
+      },
+      {
+        "id": "20260927_162346_54945d",
+        "title": null,
+        "model": "gpt-6-astra",
+        "billing_provider": "openai-codex",
+        "input_tokens": 210430,
+        "output_tokens": 25091,
+        "reasoning_tokens": 8971,
+        "cache_read_tokens": 8873088,
+        "cache_write_tokens": 0,
+        "estimated_cost_usd": 0.0,
+        "actual_cost_usd": null,
+        "cost_status": "included"
+      }
+    ],
+    "supervisor_note": "Earlier paid supervisor cost is an estimate, not an isolated key reconciliation. Current supervisor uses OAuth: API cost unavailable, not asserted free. Host CPU/storage and subscription costs are not priced. Auxiliary candidate services are included in dedicated-key totals, not independently itemized.",
+    "candidate_total_usd": 40.445492892
+  },
+  "candidates": {
+    "luna": {
+      "model": "openai/gpt-6-luna",
+      "status": "completed_independently_validated",
+      "started_at": "2026-09-27T16:26:38Z",
+      "ended_at": "2026-09-27T17:54:25Z",
+      "sources": "luna/luna-fontes.zip",
+      "source_file_count": 22,
+      "cost_usd": 0.467659825,
+      "phase_cost_usd": {
+        "production": 0.42619279,
+        "correction-1": 0.041467035
+      },
+      "delivery_gaps": [],
+      "transport_or_correction_phases": [
+        "correction-1"
+      ],
+      "main_api_calls": 138,
+      "api_error_events": 6,
+      "main_tokens": {
+        "prompt_tokens": 11341403,
+        "output_tokens": 191935,
+        "reasoning_tokens": 92185,
+        "cache_read_tokens": 10996025,
+        "cache_write_tokens": 344964
+      },
+      "elapsed_minutes": 87.78333333333333,
+      "video": "luna/luna-t2s-pods.mp4",
+      "poster": "luna/poster.jpg",
+      "contact": "luna/contact.jpg",
+      "sha256": "1f6684590de40596a700479f00ff81a9e130a1757526147e2af32a5a3e3b83ef",
+      "bytes": 2303622,
+      "checks": {
+        "1920x1080": true,
+        "30fps": true,
+        "30seconds": true,
+        "audio": true,
+        "900frames": true,
+        "decode_ok": true
+      },
+      "audio": {
+        "peak": 0.26664626598358154,
+        "rms": 0.04320738818454804,
+        "rms_dbfs": -27.288839705629616,
+        "samples_ge_1": 0,
+        "duration_s": 30.016,
+        "listened": false,
+        "note": "Decoded sample analysis, not a human listening judgment."
+      },
+      "final_hold": {
+        "decoded_frames": 90,
+        "mean_absolute_change_from_27s": 0.0008102494855967078,
+        "note": "Pixel difference is descriptive, not a readability verdict."
+      },
+      "review": {
+        "model": "openai/gpt-6-luna",
+        "artifact_prefix": "1f6684590de4",
+        "status": "MP4 e documentação concluídos; validação técnica aprovada",
+        "evidence": [
+          "1f6684590de4/contact.jpg",
+          "1f6684590de4/qa.json",
+          "../end-holds.jpg"
+        ],
+        "strengths": [
+          "Textos principais da abertura, cinco funções, fluxo e CTA presentes na amostra.",
+          "Identidade escura consistente, logo oficial destacado no encerramento.",
+          "Checkpoints de revisão humana distribuídos no fluxo, sem números de produtividade fictícios.",
+          "Todos os testes técnicos passaram; áudio presente, sem amostras saturadas."
+        ],
+        "reservations": [
+          "Fonte src/render.py: composição rasterizada em 1280x720 (S=2/3) e ampliada por Lanczos para 1920x1080. O arquivo satisfaz resolução de saída, mas não é render nativo 1080p.",
+          "Textos auxiliares e rótulos de checkpoints são pequenos e discretos; comparação visual sugere menor legibilidade em telas reduzidas.",
+          "Contraste dos elementos de conexão e do núcleo é sutil; apreciação estética não equivale a defeito técnico.",
+          "Áudio tem RMS aproximado de -27,29 dBFS, inferior aos outros vídeos já medidos; não normalizado pelo supervisor nem classificado como inaudível."
+        ],
+        "limitations": [
+          "Inspeção visual por frames, sem julgamento integral de fluidez e sem escuta humana.",
+          "A execução inicial atingiu 120 iterações antes da documentação; o próprio candidato concluiu em rodada objetiva de correção."
+        ],
+        "supervisor_creative_edits": false,
+        "final_hold_review": "Frames aos 27 e 29,5 segundos inspecionados: logo, título, CTA e domínio visíveis, sem cortes; variação residual do fundo no Muse não prejudica texto.",
+        "audio_envelope_review": "Envelope RMS do MP4 decodificado inspecionado; não se observam lacunas extensas, término com redução gradual. Isto não é escuta nem julgamento de timbre.",
+        "source_audit": {
+          "internal_resolution": [
+            1280,
+            720
+          ],
+          "upscale": "Lanczos",
+          "evidence": "src/render.py linhas 23-26 e 716-721"
+        }
+      },
+      "presentation_number": 1,
+      "elapsed_seconds": 5267,
+      "elapsed_hms": "01:27:47",
+      "strategy": "Composição procedural 2D em Python/Pillow e NumPy, com cartões que se organizam em núcleo, funções e fluxo. Usa Montserrat/Rubik, logos oficiais rasterizados, easing e trilha sintetizada por código. O compositor trabalha em resolução interna reduzida e amplia para 1920×1080 com Lanczos.",
+      "procedure": [
+        "Ler os inputs oficiais congelados e preparar fontes e logos locais.",
+        "Compor cenas e áudio em src/render.py, gerar prévias e codificar H.264/AAC com FFmpeg.",
+        "Após o limite inicial de 120 iterações, concluir documentação e render na rodada objetiva de correção; validar o MP4 final."
+      ],
+      "strategy_evidence": [
+        "output/README.md",
+        "src/render.py"
+      ]
+    },
+    "astra": {
+      "model": "openai/gpt-6-astra",
+      "status": "completed_independently_validated",
+      "started_at": "2026-09-27T16:26:38Z",
+      "ended_at": "2026-09-27T18:02:52Z",
+      "sources": "astra/astra-fontes.zip",
+      "source_file_count": 38,
+      "cost_usd": 10.6071655,
+      "phase_cost_usd": {
+        "production": 4.589265,
+        "recovery-1": 1.5898,
+        "recovery-2": 0.0,
+        "recovery-3": 1.0735345,
+        "recovery-4": 0.6252205,
+        "recovery-5": 2.4119255,
+        "recovery-6": 0.31742
+      },
+      "delivery_gaps": [],
+      "transport_or_correction_phases": [
+        "recovery-1",
+        "recovery-2",
+        "recovery-3",
+        "recovery-4",
+        "recovery-5",
+        "recovery-6"
+      ],
+      "main_api_calls": 41,
+      "api_error_events": 26,
+      "main_tokens": {
+        "prompt_tokens": 3316155,
+        "output_tokens": 59282,
+        "reasoning_tokens": 28591,
+        "cache_read_tokens": 3198408,
+        "cache_write_tokens": 117624
+      },
+      "elapsed_minutes": 96.23333333333333,
+      "video": "astra/astra-t2s-pods.mp4",
+      "poster": "astra/poster.jpg",
+      "contact": "astra/contact.jpg",
+      "sha256": "991ce9d434a3d67f94b71e47a6385ff3ae43f493aa543a4bdb347b788958345a",
+      "bytes": 3626066,
+      "checks": {
+        "1920x1080": true,
+        "30fps": true,
+        "30seconds": true,
+        "audio": true,
+        "900frames": true,
+        "decode_ok": true
+      },
+      "audio": {
+        "peak": 0.727967381477356,
+        "rms": 0.13413980165547768,
+        "rms_dbfs": -17.44884680320468,
+        "samples_ge_1": 0,
+        "duration_s": 30.016,
+        "listened": false,
+        "note": "Decoded sample analysis, not a human listening judgment."
+      },
+      "final_hold": {
+        "decoded_frames": 90,
+        "mean_absolute_change_from_27s": 0.000996656378600823,
+        "note": "Pixel difference is descriptive, not a readability verdict."
+      },
+      "review": {
+        "model": "openai/gpt-6-astra",
+        "artifact_prefix": "991ce9d434a3",
+        "status": "MP4 validado tecnicamente; inspeção visual por amostragem",
+        "evidence": [
+          "991ce9d434a3/contact.jpg",
+          "991ce9d434a3/qa.json",
+          "../end-holds.jpg"
+        ],
+        "strengths": [
+          "Abertura legível e cartões dispersos que aparecem alinhados no segundo frame.",
+          "Cinco funções com nomes e ações visíveis, decisões com revisão humana explicitadas.",
+          "Variação entre fundos escuro, azul e claro; boa hierarquia dos títulos na amostra.",
+          "Fluxo Contexto, Entrega, Qualidade e quatro evidências de artefatos sem números fictícios.",
+          "Logo oficial, título, CTA e domínio visíveis no encerramento.",
+          "Todos os testes técnicos passaram; AAC sem amostras acima de 1."
+        ],
+        "reservations": [
+          "Alguns textos auxiliares são pequenos; legibilidade em tela móvel não foi garantida."
+        ],
+        "limitations": [
+          "Inspeção de 12 frames, não julgamento da fluidez integral.",
+          "Sem escuta humana, qualidade musical e sincronização perceptiva não foram confirmadas."
+        ],
+        "supervisor_creative_edits": false,
+        "final_hold_review": "Frames aos 27 e 29,5 segundos inspecionados: logo, título, CTA e domínio visíveis, sem cortes; variação residual do fundo no Muse não prejudica texto.",
+        "audio_envelope_review": "Envelope RMS do MP4 decodificado inspecionado; não se observam lacunas extensas, término com redução gradual. Isto não é escuta nem julgamento de timbre."
+      },
+      "presentation_number": 2,
+      "elapsed_seconds": 5774,
+      "elapsed_hms": "01:36:14",
+      "strategy": "Pipeline modular Python/Skia com shaping HarfBuzz, fontes de pesos instanciados e síntese musical NumPy/SciPy. Transforma cartões em núcleo, capacidades e fluxo, com máscaras tipográficas, interpolação e blur temporal seletivo; encerra com composição estática.",
+      "procedure": [
+        "Inspecionar a marca, preparar pesos tipográficos e paleta em src/prepare.py.",
+        "Gerar trilha em src/music.py e compor/renderizar com src/film.py, src/graphics.py e src/render.py; src/build_all.py coordena a entrega.",
+        "Retomar a mesma sessão após erros 402/429 em seis fases de recuperação; corrigir viewport do logo e linhas dos checkpoints, validar áudio/vídeo e gerar manifesto."
+      ],
+      "strategy_evidence": [
+        "output/README.md",
+        "src/build_all.py",
+        "src/prepare.py",
+        "src/graphics.py",
+        "src/film.py",
+        "src/music.py",
+        "src/render.py"
+      ]
+    },
+    "opus": {
+      "model": "anthropic/claude-opus-5.5",
+      "status": "completed_independently_validated",
+      "started_at": "2026-09-27T16:26:39Z",
+      "ended_at": "2026-09-27T19:26:46Z",
+      "sources": "opus/opus-fontes.zip",
+      "source_file_count": 31,
+      "cost_usd": 25.918514,
+      "phase_cost_usd": {
+        "production": 3.9084818,
+        "correction-1": 22.0100322
+      },
+      "delivery_gaps": [],
+      "transport_or_correction_phases": [
+        "correction-1"
+      ],
+      "main_api_calls": 45,
+      "api_error_events": 8,
+      "main_tokens": {
+        "prompt_tokens": 3311527,
+        "output_tokens": 331328,
+        "reasoning_tokens": 267400,
+        "cache_read_tokens": 2320166,
+        "cache_write_tokens": 991263
+      },
+      "elapsed_minutes": 180.11666666666667,
+      "video": "opus/opus-t2s-pods.mp4",
+      "poster": "opus/poster.jpg",
+      "contact": "opus/contact.jpg",
+      "sha256": "7b08bd64a9e7cdd114ae8a5d9428b689da136e8d8c49d0b547bb4002078d342d",
+      "bytes": 10413134,
+      "checks": {
+        "1920x1080": true,
+        "30fps": true,
+        "30seconds": true,
+        "audio": true,
+        "900frames": true,
+        "decode_ok": true
+      },
+      "audio": {
+        "peak": 0.7510722279548645,
+        "rms": 0.17647883430000585,
+        "rms_dbfs": -15.066147471009131,
+        "samples_ge_1": 0,
+        "duration_s": 30.016,
+        "listened": false,
+        "note": "Decoded sample analysis, not a human listening judgment."
+      },
+      "final_hold": {
+        "decoded_frames": 90,
+        "mean_absolute_change_from_27s": 0.22696727109053497,
+        "note": "Pixel difference is descriptive, not a readability verdict."
+      },
+      "review": {
+        "model": "anthropic/claude-opus-5.5",
+        "artifact_prefix": "7b08bd64a9e7",
+        "status": "MP4 validado tecnicamente; inspeção visual por amostragem",
+        "evidence": [
+          "7b08bd64a9e7/contact.jpg",
+          "7b08bd64a9e7/hold-27.jpg",
+          "7b08bd64a9e7/waveform.png",
+          "7b08bd64a9e7/qa.json"
+        ],
+        "strengths": [
+          "Composição escura com hierarquia clara e contraste do ciano nos textos principais.",
+          "Cinco funções reveladas sequencialmente e checkpoints humanos distribuídos abaixo dos cartões.",
+          "Fluxo Contexto, Entrega, Qualidade e evidências de progresso visíveis na amostra.",
+          "Logo oficial completo, título, CTA e domínio legíveis aos 27 segundos.",
+          "Todos os testes técnicos passaram; áudio sem amostras saturadas, envelope com entrada e saída graduais."
+        ],
+        "reservations": [
+          "Rótulos menores de checkpoints e evidências exigem tela maior para leitura confortável.",
+          "Frames de 1s, 6s e 15s capturam máscaras durante revelações; não foram classificados como cortes acidentais com base em uma única imagem."
+        ],
+        "limitations": [
+          "Sem julgamento integral de fluidez, sincronização perceptiva ou escuta humana.",
+          "Produção sofreu truncamentos com teto de saída 32000; houve rodada objetiva de correção após execução inicial sem MP4.",
+          "Consulta ao site ao vivo retornou 301 sem seguir redirecionamento; o candidato usou a página e os assets oficiais congelados. Encerramento no limite da rodada de 40 iterações, com os quatro entregáveis presentes."
+        ],
+        "supervisor_creative_edits": false,
+        "final_hold_review": "Versão final revalidada: logo, título, CTA e domínio legíveis aos 27 segundos; 90 frames finais decodificados.",
+        "audio_envelope_review": "Envelope RMS inspecionado na entrega anterior; mesma análise numérica de pico/RMS na versão final, sem silêncio >=0,4s sob limiar -50dB. Sem escuta humana."
+      },
+      "presentation_number": 3,
+      "elapsed_seconds": 10807,
+      "elapsed_hms": "03:00:07",
+      "strategy": "Canvas 2D em Chromium headless, controlado por Playwright/Python. Fontes oficiais e paths SVG em Path2D, transições por continuidade de formas, máscaras e seis subframes de motion blur. Música sintetizada em Python, com eventos de sincronia registrados.",
+      "procedure": [
+        "Usar HTML/CSS e assets congelados como referência de marca e construir cenas JavaScript.",
+        "Gerar música, rasterizar 900 frames no Chromium e codificar/muxar com FFmpeg via src/build.sh; gerar QA e manifesto.",
+        "Após respostas truncadas e término inicial sem MP4, usar rodada objetiva de até 40 iterações; corrigir colisões/sobreposições e revisar amostras do render definitivo."
+      ],
+      "strategy_evidence": [
+        "output/README.md",
+        "src/build.sh",
+        "src/render.py",
+        "src/main.js",
+        "src/logo.js",
+        "src/compose.py",
+        "src/finalize.py"
+      ]
+    },
+    "muse": {
+      "model": "meta/muse-spark-1.3",
+      "status": "completed_independently_validated",
+      "started_at": "2026-09-27T16:26:39Z",
+      "ended_at": "2026-09-27T17:13:56Z",
+      "sources": "muse/muse-fontes.zip",
+      "source_file_count": 27,
+      "cost_usd": 3.1216316,
+      "phase_cost_usd": {
+        "production": 1.96971095,
+        "correction-1": 1.15192065
+      },
+      "delivery_gaps": [],
+      "transport_or_correction_phases": [
+        "correction-1"
+      ],
+      "main_api_calls": 91,
+      "api_error_events": 6,
+      "main_tokens": {
+        "prompt_tokens": 6376922,
+        "output_tokens": 104539,
+        "reasoning_tokens": 48523,
+        "cache_read_tokens": 5391704,
+        "cache_write_tokens": 0
+      },
+      "elapsed_minutes": 47.28333333333333,
+      "video": "muse/muse-t2s-pods.mp4",
+      "poster": "muse/poster.jpg",
+      "contact": "muse/contact.jpg",
+      "sha256": "9d5221f4b2efc9c9d871abd899b66835d00796283822e3a6fb783b6b6154991c",
+      "bytes": 9429538,
+      "checks": {
+        "1920x1080": true,
+        "30fps": true,
+        "30seconds": true,
+        "audio": true,
+        "900frames": true,
+        "decode_ok": true
+      },
+      "audio": {
+        "peak": 0.7739788889884949,
+        "rms": 0.132174226055543,
+        "rms_dbfs": -17.57706447842162,
+        "samples_ge_1": 0,
+        "duration_s": 30.016,
+        "listened": false,
+        "note": "Decoded sample analysis, not a human listening judgment."
+      },
+      "final_hold": {
+        "decoded_frames": 90,
+        "mean_absolute_change_from_27s": 0.4148227237654321,
+        "note": "Pixel difference is descriptive, not a readability verdict."
+      },
+      "review": {
+        "model": "meta/muse-spark-1.3",
+        "artifact_prefix": "9d5221f4b2ef",
+        "status": "MP4 corrigido validado tecnicamente; inspeção visual por amostragem",
+        "evidence": [
+          "9d5221f4b2ef/contact.jpg",
+          "9d5221f4b2ef/frame-04.0.jpg",
+          "9d5221f4b2ef/qa.json",
+          "../end-holds.jpg"
+        ],
+        "strengths": [
+          "Título da abertura integralmente legível após correção pelo candidato.",
+          "Cinco funções identificadas, fluxo Contexto, Entrega, Qualidade e evidências de progresso visíveis.",
+          "Logo oficial e CTA visíveis no encerramento, com composição equivalente em 26 e 28,5 segundos.",
+          "Todos os testes técnicos passaram; pico AAC decodificado 0,773979, sem amostras acima de 1."
+        ],
+        "reservations": [
+          "Na abertura, textos dos cartões permanecem atrás do título; o título prioritário está legível, mas há competição visual residual.",
+          "Checkpoints humanos e textos pequenos exigem inspeção em resolução integral; a folha de contato não prova sua leitura ao longo de todo o vídeo."
+        ],
+        "limitations": [
+          "Inspeção visual de 12 frames, não julgamento de fluidez integral.",
+          "Áudio analisado numericamente, sem escuta humana; não afirmada qualidade musical ou sincronização perceptiva."
+        ],
+        "supervisor_creative_edits": false,
+        "final_hold_review": "Frames aos 27 e 29,5 segundos inspecionados: logo, título, CTA e domínio visíveis, sem cortes; variação residual do fundo no Muse não prejudica texto.",
+        "audio_envelope_review": "Envelope RMS do MP4 decodificado inspecionado; não se observam lacunas extensas, término com redução gradual. Isto não é escuta nem julgamento de timbre."
+      },
+      "presentation_number": 4,
+      "elapsed_seconds": 2837,
+      "elapsed_hms": "00:47:17",
+      "strategy": "Renderização procedural em Pillow/NumPy com identidade derivada dos tokens CSS oficiais e logos rasterizados. Cartões viram núcleo POD, funções e trilha de entrega; usa máscaras, overshoot e rastros 2D. Áudio eletrônico original sintetizado a 120 BPM.",
+      "procedure": [
+        "Compor áudio em work/src_audio.py e cenas em work/src_render.py, usando fontes e assets locais.",
+        "Renderizar vídeo sob lock e muxar H.264/AAC com FFmpeg.",
+        "Na rodada objetiva, desenhar a headline acima dos cartões com proteção de contraste e reduzir o teto do master para evitar saturação após AAC; verificar novamente o arquivo codificado."
+      ],
+      "strategy_evidence": [
+        "output/README.md",
+        "work/src_render.py",
+        "work/src_audio.py"
+      ]
+    },
+    "mimo": {
+      "model": "xiaomi/mimo-v2.6-pro",
+      "status": "completed_independently_validated",
+      "started_at": "2026-09-27T16:26:40Z",
+      "ended_at": "2026-09-27T18:28:40Z",
+      "sources": "mimo/mimo-fontes.zip",
+      "source_file_count": 30,
+      "cost_usd": 0.330521967,
+      "phase_cost_usd": {
+        "production": 0.330521967
+      },
+      "delivery_gaps": [],
+      "transport_or_correction_phases": [],
+      "main_api_calls": 85,
+      "api_error_events": 4,
+      "main_tokens": {
+        "prompt_tokens": 5834394,
+        "output_tokens": 106054,
+        "reasoning_tokens": 58329,
+        "cache_read_tokens": 5470528,
+        "cache_write_tokens": 0
+      },
+      "elapsed_minutes": 122.0,
+      "video": "mimo/mimo-t2s-pods.mp4",
+      "poster": "mimo/poster.jpg",
+      "contact": "mimo/contact.jpg",
+      "sha256": "6a62c1385b8cf1bc78cd4ca8e2a0f68c3a9ededd4e4d7209b50616bf4e6746da",
+      "bytes": 3636021,
+      "checks": {
+        "1920x1080": true,
+        "30fps": true,
+        "30seconds": true,
+        "audio": true,
+        "900frames": true,
+        "decode_ok": true
+      },
+      "audio": {
+        "peak": 0.7360112071037292,
+        "rms": 0.17859391427110244,
+        "rms_dbfs": -14.962666882466714,
+        "samples_ge_1": 0,
+        "duration_s": 30.016,
+        "listened": false,
+        "note": "Decoded sample analysis, not a human listening judgment."
+      },
+      "final_hold": {
+        "decoded_frames": 90,
+        "mean_absolute_change_from_27s": 0.00709645061728395,
+        "note": "Pixel difference is descriptive, not a readability verdict."
+      },
+      "review": {
+        "model": "xiaomi/mimo-v2.6-pro",
+        "artifact_prefix": "6a62c1385b8c",
+        "status": "MP4 e documentação concluídos; validação técnica aprovada",
+        "evidence": [
+          "6a62c1385b8c/contact.jpg",
+          "6a62c1385b8c/hold-27.jpg",
+          "6a62c1385b8c/qa.json",
+          "../audio-envelopes.jpg"
+        ],
+        "strengths": [
+          "Hierarquia clara dos títulos na amostra, alternância entre fundos claro, azul e escuro.",
+          "Legenda de especialistas e agentes supervisionados legível após autocorreção do candidato.",
+          "Cinco funções com ações e checkpoints humanos ao longo das decisões.",
+          "Fluxo e evidências conceituais sem indicadores numéricos inventados.",
+          "Logo oficial, serviço, CTA e domínio legíveis já aos 27 segundos.",
+          "Todos os testes técnicos passaram; áudio sem amostras saturadas e envelope com saída gradual."
+        ],
+        "reservations": [
+          "Textos secundários nas funções e nos artefatos são pequenos quando o vídeo é reduzido.",
+          "A amostra de 17,5s captura uma faixa azul de transição, não uma cena estática; fluidez integral não foi julgada."
+        ],
+        "limitations": [
+          "Raciocínio habilitado, sem comprovação de controle graduado de esforço máximo no MiMo.",
+          "Avaliação por amostras visuais e áudio numérico/visual, sem escuta humana."
+        ],
+        "supervisor_creative_edits": false,
+        "audio_envelope_review": "Envelope RMS do MP4 decodificado inspecionado; não se observam lacunas extensas, término com redução gradual. Isto não é escuta nem julgamento de timbre."
+      },
+      "presentation_number": 5,
+      "elapsed_seconds": 7320,
+      "elapsed_hms": "02:02:00",
+      "strategy": "Renderizador próprio Pillow/NumPy com grafo de cenas, supersampling espacial e temporal, easing e máscaras. Cartões passam por constelação, hub, funções e fluxo até o logo; áudio programático a 120 BPM com efeitos de checkpoints e transições.",
+      "procedure": [
+        "Rasterizar SVGs oficiais via Chrome headless em build/rasterize_logos.py e gerar trilha em build/music.py.",
+        "Renderizar 900 frames em build/render.py e muxar áudio/vídeo com FFmpeg; preparar manifesto.",
+        "Realizar ajustes e novo render dentro da execução inicial, sem rodada externa de correção; conferir amostras e especificações do MP4."
+      ],
+      "strategy_evidence": [
+        "output/README.md",
+        "build/rasterize_logos.py",
+        "build/music.py",
+        "build/render.py",
+        "build/manifest.py"
+      ]
+    }
+  },
+  "interventions": [
+    "Supervisor reutilizou assets, chaves e testes anteriores; candidatos mantidos nos cinco IDs solicitados, somente via OpenRouter.",
+    "Astra: retomadas da mesma sessão após 402 de reserva/crédito e 429 de verificação de créditos. Nenhum modelo substituído.",
+    "Muse: primeira entrega preservada; o candidato corrigiu título parcialmente coberto na abertura e risco de saturação do AAC.",
+    "Luna: chegou ao limite inicial de 120 iterações com MP4; rodada objetiva concluiu documentação e último render.",
+    "Opus: execução inicial encerrou sem MP4 após respostas truncadas; recebeu a mesma oportunidade de correção de até 40 iterações.",
+    "MiMo: ajustes e re-render dentro da própria execução inicial, sem código criativo do supervisor."
+  ],
+  "video_count": 5
+}

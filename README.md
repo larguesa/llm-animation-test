@@ -6,13 +6,16 @@ Comparação documental de cinco execuções que produziram vídeos de motion gr
 
 ## Material disponível
 
-- [Relatório completo](report.html), com prompt integral, estratégia e procedimento por modelo, custos, consumo, intervenções e ressalvas anteriores preservados.
+- [Relatório completo em Markdown](report.md), com prompt integral, estratégia e procedimento por modelo, custos, consumo, validações, intervenções e limitações.
+- [Baixar o relatório HTML (.zip)](https://github.com/larguesa/llm-animation-test/raw/refs/heads/main/report-html.zip), contendo o `report.html` original, sem alterações.
 - [Resumo estruturado](summary.json), com tempos e dados do experimento.
 - [Prompt original](prompt.txt), preservado byte a byte. SHA-256: `7684288063461022ad603973b1069536705504b2802c84f9fc4abd7467be9d8c`.
 - [Página local dos vídeos](index.html), cinco MP4s, posters, contact sheets, READMEs, declarações de música e ZIPs nas pastas de cada modelo.
 - `sources/{slug}/`: conteúdo integral dos ZIPs, incluindo inputs oficiais, fontes, documentação e manifestos dos pacotes.
 - [Notas de reprodução](docs/reproducao.md) e [verificação local](verification.json).
 - [SHA256SUMS.txt](SHA256SUMS.txt): hashes de todos os arquivos do repositório, exceto o próprio manifesto e metadados `.git`.
+
+O download do HTML requer login no GitHub e acesso ao repositório privado. O ZIP contém somente o relatório. Para usar seus vídeos e imagens offline, extraia `report.html` na raiz de uma cópia completa deste repositório, mantendo os caminhos relativos.
 
 O conteúdo da pasta `public` da entrega foi copiado diretamente para a raiz deste repositório. Essa disposição mantém os links relativos de `report.html` e `index.html` sem duplicar os MP4s. Os logs, históricos, chaves, ambientes virtuais e estado operacional bruto não foram copiados. Os READMEs e manifestos dos candidatos podem citar esses arquivos históricos, mas isso não significa que estejam incluídos aqui.
 

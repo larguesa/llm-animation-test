@@ -1,26 +1,26 @@
 # Relatório completo: T2S AI-Native Delivery Pods
 
-Cinco modelos. Um mesmo briefing. Experimento realizado em 27/09/2026; documentação Markdown acrescentada em 30/09/2026. A geração original do resumo está registrada em `2026-09-27T19:29:52Z`.
+Cinco modelos. Um mesmo briefing. Experimento realizado em 27/09/2026; documentação Markdown acrescentada em 30/09/2026. O retrato de percepção foi coletado em 30/09/2026 e incorporado ao relatório em 01/10/2026. A geração original do resumo está registrada em `2026-09-27T19:29:52Z`.
 
-**Repositório privado.** Manter privado até autorização explícita de Ricardo. A correspondência entre versões e modelos é informação reservada durante a coleta do teste cego. Não compartilhar este relatório com participantes antes de encerrar a coleta.
+**Repositório público, conforme verificação da página e da API do GitHub em 01/10/2026.** A correspondência entre versões e modelos e os resultados de percepção estão documentados; Ricardo registra a revelação dos modelos no episódio do Desbugados vinculado na seção 8. Esta atualização não alterou a visibilidade encontrada.
 
 [Baixar o relatório HTML (.zip)](https://github.com/larguesa/llm-animation-test/raw/refs/heads/main/report-html.zip) · [Resumo estruturado](summary.json) · [Prompt original](prompt.txt) · [Hashes](SHA256SUMS.txt)
 
-O download contém o `report.html` original, sem alterações. É necessário estar autenticado no GitHub com acesso ao repositório. O ZIP permite baixar o arquivo em vez de abrir seu código no navegador. O HTML usa caminhos relativos para vídeos e imagens: para reproduzi-los offline, extraia o HTML na raiz de uma cópia completa deste repositório. O ZIP do relatório não inclui os MP4s nem as fontes dos candidatos.
+O download contém o `report.html` atualizado, incluindo a coleta de percepção e o episódio do Desbugados. O ZIP permite baixar o arquivo em vez de abrir seu código no navegador. O HTML usa caminhos relativos para vídeos e imagens: para reproduzi-los offline, extraia o HTML na raiz de uma cópia completa deste repositório. O ZIP do relatório não inclui os MP4s nem as fontes dos candidatos.
 
 ## 1. Resumo executivo
 
 Os cinco candidatos produziram MP4s finais com áudio e passaram nas verificações técnicas registradas. Cada candidato executou o trabalho em um processo Hermes com modelo e chave OpenRouter próprios. As fontes criativas são dos candidatos; não houve edição criativa do supervisor. Os arquivos finais preservados, e não as primeiras tentativas, são o objeto desta comparação.
 
-O estudo documenta uma execução integral por modelo, incluindo retomadas e correções. **Não é um ranking geral, uma comparação isolada de velocidade ou um resultado de preferência humana.** A inspeção estética foi amostral, e o áudio não foi ouvido integralmente por um avaliador humano.
+O estudo documenta uma execução integral por modelo, incluindo retomadas e correções. **Não é um ranking geral nem uma comparação isolada de velocidade.** A percepção humana acrescentada na seção 8 é descritiva, com amostra pequena e cegamento não comprovado. A inspeção estética foi amostral, e o áudio não foi ouvido integralmente por um avaliador humano.
 
-| Versão | Modelo | Tempo total | Custo da chave (USD) | Chamadas principais | Eventos de erro | Vídeo | Fontes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | openai/gpt-6-luna | 01:27:47 | 0.467659825 | 138 | 6 | [MP4](luna/luna-t2s-pods.mp4) | [ZIP](luna/luna-fontes.zip) |
-| 2 | openai/gpt-6-astra | 01:36:14 | 10.6071655 | 41 | 26 | [MP4](astra/astra-t2s-pods.mp4) | [ZIP](astra/astra-fontes.zip) |
-| 3 | anthropic/claude-opus-5.5 | 03:00:07 | 25.918514 | 45 | 8 | [MP4](opus/opus-t2s-pods.mp4) | [ZIP](opus/opus-fontes.zip) |
-| 4 | meta/muse-spark-1.3 | 00:47:17 | 3.1216316 | 91 | 6 | [MP4](muse/muse-t2s-pods.mp4) | [ZIP](muse/muse-fontes.zip) |
-| 5 | xiaomi/mimo-v2.6-pro | 02:02:00 | 0.330521967 | 85 | 4 | [MP4](mimo/mimo-t2s-pods.mp4) | [ZIP](mimo/mimo-fontes.zip) |
+| Versão | Modelo | Tempo total | Custo da chave (USD) | Chamadas principais | Eventos de erro | YouTube | Vídeo original | Fontes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | openai/gpt-6-luna | 01:27:47 | 0.467659825 | 138 | 6 | [Versão 1](https://www.youtube.com/watch?v=DG9gIfH_3Hc) | [MP4](luna/luna-t2s-pods.mp4) | [ZIP](luna/luna-fontes.zip) |
+| 2 | openai/gpt-6-astra | 01:36:14 | 10.6071655 | 41 | 26 | [Versão 2](https://www.youtube.com/watch?v=IWdM82_2kN0) | [MP4](astra/astra-t2s-pods.mp4) | [ZIP](astra/astra-fontes.zip) |
+| 3 | anthropic/claude-opus-5.5 | 03:00:07 | 25.918514 | 45 | 8 | [Versão 3](https://www.youtube.com/watch?v=lE9gV8PbZ2w) | [MP4](opus/opus-t2s-pods.mp4) | [ZIP](opus/opus-fontes.zip) |
+| 4 | meta/muse-spark-1.3 | 00:47:17 | 3.1216316 | 91 | 6 | [Versão 4](https://www.youtube.com/watch?v=5K7dABXSM94) | [MP4](muse/muse-t2s-pods.mp4) | [ZIP](muse/muse-fontes.zip) |
+| 5 | xiaomi/mimo-v2.6-pro | 02:02:00 | 0.330521967 | 85 | 4 | [Versão 5](https://www.youtube.com/watch?v=5FdPaSsJwsg) | [MP4](mimo/mimo-t2s-pods.mp4) | [ZIP](mimo/mimo-fontes.zip) |
 
 Total das cinco chaves de candidatos: **USD 40.445492892**. A numeração é ordem de apresentação, não classificação de qualidade. O total não inclui diagnósticos, supervisão, infraestrutura ou assinaturas.
 
@@ -407,41 +407,85 @@ Nesta execução, `xiaomi/mimo-v2.6-pro` teve o menor custo de chave, e `meta/mu
 
 A presença dos textos principais e da marca em amostras não garante legibilidade móvel, fluidez de todas as transições ou sincronização musical integral. Estratégias são sínteses de documentação e código, não transcrições de raciocínio interno. Declarações mais amplas dos candidatos não substituem a validação independente.
 
-**Resultado de percepção humana: pendente.** Não há vencedor de preferência humana, taxa de acerto de palpites ou resultado de teste cego calculado.
+**Percepção do público registrada em 30/09/2026:** 33 likes, 36 comentários de 8 contas e 16/36 acertos brutos de modelo (44,4%). Opus recebeu mais likes no retrato coletado. O detalhamento, as médias estimadas versus reais e as limitações do cegamento estão na seção 8; não há vencedor geral estabelecido.
 
-## 8. Playlist e plano de teste cego
+## 8. Vídeos, percepção do público e revelação dos modelos
 
-Playlist literal fornecida pelo usuário: https://www.youtube.com/playlist?list=PLSxq4U-bytMY
+### Episódio do Desbugados
 
-Playlist verificada em Chrome: título **T2S AI-Native Pod Test**, autor **Ricardo Pupo Larguesa**, visibilidade **Público** e cinco vídeos, de Version 1 a Version 5, nessa ordem. Não foi realizada comparação audiovisual do YouTube com os MP4s originais. Não se afirma equivalência byte a byte, de áudio ou de imagem após a transcodificação do YouTube.
+> **Assista à análise crítica e à revelação dos modelos no [Desbugados #076](https://www.youtube.com/watch?v=YXr0z2-87PQ).**
+> 5 MODELOS VS 1 ANÚNCIO: QUAL FEZ O MELHOR MOTION GRAPHICS? l DESAFIO AO VIVO | DESBUGADOS #076
 
-| Versão | Link do vídeo |
-|---|---|
-| Version 1 | https://www.youtube.com/watch?v=DG9gIfH_3Hc |
-| Version 2 | https://www.youtube.com/watch?v=IWdM82_2kN0 |
-| Version 3 | https://www.youtube.com/watch?v=lE9gV8PbZ2w |
-| Version 4 | https://www.youtube.com/watch?v=5K7dABXSM94 |
-| Version 5 | https://www.youtube.com/watch?v=5FdPaSsJwsg |
+Ricardo registra que os vídeos foram criticados e os modelos revelados nesse episódio. A página do YouTube foi verificada para confirmar o link, o título e o canal Desbugados. Não se atribuem notas, falas ou timestamps específicos aos apresentadores sem transcrição validada. A discussão pública é distinta da validação técnica original por arquivos e amostras.
 
-Repositório privado: https://github.com/larguesa/llm-animation-test.
+### 8.1. Tempo e gasto real por modelo, com os vídeos
 
-**Coleta e resultados de percepção estão pendentes.** Não há vencedor de preferência humana, taxa de acerto dos palpites ou resultado de teste cego calculado neste repositório.
+| Versão | Modelo | Tempo total | Gasto da chave (USD) | Vídeo no YouTube | Original / fontes |
+| --- | --- | --- | ---: | --- | --- |
+| 1 | `openai/gpt-6-luna` | 01:27:47 | 0.467660 | [Versão 1](https://www.youtube.com/watch?v=DG9gIfH_3Hc) | [MP4](luna/luna-t2s-pods.mp4) / [ZIP](luna/luna-fontes.zip) |
+| 2 | `openai/gpt-6-astra` | 01:36:14 | 10.607166 | [Versão 2](https://www.youtube.com/watch?v=IWdM82_2kN0) | [MP4](astra/astra-t2s-pods.mp4) / [ZIP](astra/astra-fontes.zip) |
+| 3 | `anthropic/claude-opus-5.5` | 03:00:07 | 25.918514 | [Versão 3](https://www.youtube.com/watch?v=lE9gV8PbZ2w) | [MP4](opus/opus-t2s-pods.mp4) / [ZIP](opus/opus-fontes.zip) |
+| 4 | `meta/muse-spark-1.3` | 00:47:17 | 3.121632 | [Versão 4](https://www.youtube.com/watch?v=5K7dABXSM94) | [MP4](muse/muse-t2s-pods.mp4) / [ZIP](muse/muse-fontes.zip) |
+| 5 | `xiaomi/mimo-v2.6-pro` | 02:02:00 | 0.330522 | [Versão 5](https://www.youtube.com/watch?v=5FdPaSsJwsg) | [MP4](mimo/mimo-t2s-pods.mp4) / [ZIP](mimo/mimo-fontes.zip) |
 
-### Plano simples de coleta, sem sistema novo
+**Total das cinco chaves: USD 40.445492892.** O tempo é de ponta a ponta, incluindo esperas, renderização, retomadas e correções. O gasto inclui chamadas principais e serviços auxiliares cobrados na chave de cada candidato. Diagnósticos, supervisão, CPU, armazenamento e assinaturas não entram nesse total. A numeração é ordem de apresentação, não posição em ranking.
 
-1. Antes de divulgar, definir janela de coleta, público-alvo e perguntas. Exibir apenas Version 1 a Version 5, sem nomes de modelos, custos, tempos, fontes ou links deste relatório.
-2. Pedir uma versão favorita, justificativa curta e, separadamente, palpite do modelo por versão com confiança opcional. Não revelar a correspondência durante a coleta.
-3. Em uma planilha manual, registrar data/hora de coleta, versão, likes e quantidade de comentários visíveis no mesmo momento. Registrar opiniões e palpites consentidos com identificadores pseudônimos; não publicar nomes de comentaristas por padrão.
-4. Distinguir likes agregados, comentários qualitativos e respostas individuais. Não tratar likes como votos únicos nem inferir ausência de preferência a partir da ausência de like. Documentar dados ocultos, indisponíveis e respostas duplicadas.
-5. Encerrar a janela antes de revelar os modelos. Consolidar contagens, denominadores, temas das justificativas e acertos dos palpites, sem imputar valores ausentes. Publicar resultados e correspondência somente após autorização.
+Playlist literal fornecida por Ricardo: https://www.youtube.com/playlist?list=PLSxq4U-bytMY
 
-### Riscos de viés e de quebra do cegamento
+Título verificado: **T2S AI-Native Pod Test**, de Ricardo Pupo Larguesa, com cinco versões. As métricas abaixo foram lidas nas páginas individuais dos vídeos, não inferidas da playlist. Não foi comparada a equivalência audiovisual das transcodificações do YouTube com os MP4s originais.
 
-O relatório público anterior já revela as identidades dos modelos e pode ser encontrado ou ter sido visto pelos participantes. Tornar este repositório privado não desfaz essa exposição. Quem teve acesso prévio deve ser identificado por autodeclaração e analisado separadamente, sem alegar cegamento perfeito.
+### 8.2. Coleta e métricas verificadas
 
-A ordem fixa 1 a 5 traz efeitos de primazia e recência. Em uma avaliação controlada futura, variar a ordem entre participantes quando viável, mantendo o identificador de cada versão. Recomendação algorítmica, divulgação desigual, audiência prévia, horário, thumbnail, reprodução automática, equipamento, volume, tela e compressão do YouTube também podem influenciar respostas. Likes e comentários visíveis criam prova social e podem contaminar palpites. Uma amostra voluntária pequena não representa todos os públicos e uma execução por modelo não sustenta inferência causal geral.
+**Retrato de 30/09/2026, entre 15h08 e 15h10 (America/Sao_Paulo).** Os horários exatos por vídeo estão no [registro estruturado pseudonimizado](docs/percepcao-2026-09-30.json). A coleta preserva o estado observado, não contagens atualizadas em tempo real.
 
-As informações da playlist acima são o registro da verificação anterior, não uma nova coleta de métricas nesta atualização. Preserve a URL literal fornecida pelo usuário; não há comparação audiovisual dos vídeos transcodificados pelo YouTube com os originais.
+Cada vídeo foi aberto em Chrome autenticado. Os likes foram lidos no controle do próprio vídeo. Os comentários foram ordenados por **Mais recentes** e carregados por rolagem, pois **Principais** inicialmente omitiu um comentário da versão 1. Foram lidos todos os comentários visíveis, e o total coletado de cada vídeo foi reconciliado programaticamente com seu contador. Não havia respostas adicionais indicadas nos comentários coletados.
+
+| Vídeo | Likes | Comentários | Palpites de modelo | Acertos |
+| --- | ---: | ---: | --- | ---: |
+| [Versão 1](https://www.youtube.com/watch?v=DG9gIfH_3Hc) | 5 | 7 | Muse: 3; MiMo: 2; Luna: 2 | 2/7 |
+| [Versão 2](https://www.youtube.com/watch?v=IWdM82_2kN0) | 8 | 8 | Astra: 5; Opus: 2; Muse: 1 | 5/8 |
+| [Versão 3](https://www.youtube.com/watch?v=lE9gV8PbZ2w) | 12 | 8 | Opus: 6; Astra: 2 | 6/8 |
+| [Versão 4](https://www.youtube.com/watch?v=5K7dABXSM94) | 4 | 6 | Luna: 4; MiMo: 2 | 0/6 |
+| [Versão 5](https://www.youtube.com/watch?v=5FdPaSsJwsg) | 4 | 7 | MiMo: 3; Muse: 3; Astra: 1 | 3/7 |
+
+**Totais: 33 likes, 36 comentários, 8 contas distintas e 16 acertos de modelo em 36 palpites (44,4%).** Os mesmos participantes comentaram em várias versões; não são 36 pessoas independentes. Não foram aplicados pesos de confiança aos palpites.
+
+### 8.3. Expectativa de tempo e custo versus execução real
+
+| Vídeo / modelo real | Tempo médio estimado | n tempo | Tempo real | Custo médio estimado (USD) | n custo | Custo real (USD) |
+| --- | ---: | ---: | --- | ---: | ---: | ---: |
+| [Versão 1](https://www.youtube.com/watch?v=DG9gIfH_3Hc) / `openai/gpt-6-luna` | 10,9 min | 7 | 01:27:47 | 0,27 | 7 | 0.467660 |
+| [Versão 2](https://www.youtube.com/watch?v=IWdM82_2kN0) / `openai/gpt-6-astra` | 20,4 min | 8 | 01:36:14 | 2,26 | 8 | 10.607166 |
+| [Versão 3](https://www.youtube.com/watch?v=lE9gV8PbZ2w) / `anthropic/claude-opus-5.5` | 20,9 min* | 7 | 03:00:07 | 2,67 | 8 | 25.918514 |
+| [Versão 4](https://www.youtube.com/watch?v=5K7dABXSM94) / `meta/muse-spark-1.3` | 18,8 min | 6 | 00:47:17 | 0,47 | 6 | 3.121632 |
+| [Versão 5](https://www.youtube.com/watch?v=5FdPaSsJwsg) / `xiaomi/mimo-v2.6-pro` | 15,7 min | 7 | 02:02:00 | 0,70 | 7 | 0.330522 |
+
+*Na versão 3, um comentário dizia **até 30 min**. A média de tempo publicada usa os outros **7 palpites pontuais**, resultando em 20,9 min. Se o limite for tratado como 30 min, a média dos oito fica limitada a 22,0 min, mas não passa a ser uma média de oito estimativas exatas. O custo médio dessa versão considera todos os **8 comentários**.*
+
+As médias são aritméticas e não ponderadas, calculadas a partir dos números escritos nos comentários. Valores em USD, com vírgula ou ponto decimal normalizados somente para cálculo. Os nomes abreviados foram agrupados nos cinco modelos quando explicitamente identificados; modelo é categoria, portanto se apresenta distribuição, não média numérica. Os custos reais estão arredondados a seis casas na tabela; a precisão original está no JSON e na contabilidade da seção 4.
+
+### 8.4. Leitura dos resultados
+
+- **Mais likes neste retrato:** versão 3, Claude Opus 5.5, com 12; seguida pela versão 2, GPT-6 Astra, com 8. Isso não constitui eleição com votos únicos nem ranking geral de qualidade.
+- **Mais reconhecido:** Opus, 6 acertos em 8 palpites. Astra teve 5/8; MiMo 3/7; Luna 2/7; Muse 0/6.
+- **Confusões:** versão 1 foi mais associada a Muse do que a Luna; versão 4 foi associada a Luna ou MiMo, sem palpite correto de Muse. Na versão 5, MiMo e Muse empataram com três palpites cada.
+- **Tempo:** todas as médias estimadas ficaram abaixo dos tempos reais. Os tempos reais incluem esperas e trabalho de renderização/correção, enquanto os comentários não documentaram um protocolo comum para estimar duração.
+- **Custo:** as médias ficaram abaixo do custo real nas versões 1 a 4. MiMo foi a exceção: estimativa média de USD 0,70, diante de USD 0,330521967 efetivamente registrado.
+- **Comentário qualitativo explícito:** uma resposta da versão 3 declarou que foi o vídeo de que o participante mais gostou. Os demais textos coletados são principalmente palpites de modelo, tempo e custo; não foram convertidos em justificativas estéticas inexistentes.
+
+### 8.5. Limitações da percepção e do cegamento
+
+Esta é uma **amostra voluntária pequena e um retrato descritivo**, não um teste cego controlado. Não foram registrados início/fim de uma janela uniforme, confiança dos participantes ou autodeclaração de exposição aos resultados. Alguns comentários estavam editados. **Não foi validado se cada palpite foi feito ou editado antes da revelação no episódio**, nem se o participante já conhecia a correspondência; 44,4% é a proporção bruta de acertos observada, não uma medida controlada de identificação visual.
+
+O relatório de entrega anterior já identificava os modelos por link. A revelação pública no Desbugados também torna inviável assumir cegamento de novas respostas. A privacidade do repositório não desfaz essa exposição. Likes não são votos exclusivos e podem refletir divulgação, alcance, prova social ou familiaridade, além de preferência pelo vídeo.
+
+A ordem fixa, horários, thumbnail, reprodução automática, equipamento, volume, tamanho da tela e compressão do YouTube podem influenciar a percepção. Uma execução por modelo não sustenta conclusões causais ou generalizações sobre a qualidade média de cada modelo. A crítica dos apresentadores não foi transformada em pontuação quantitativa.
+
+### 8.6. Dados e privacidade
+
+O [JSON da coleta](docs/percepcao-2026-09-30.json) contém as 36 respostas textuais, classificações, denominadores, contagens, médias e a ligação de cada versão com seu modelo real. Os identificadores P01 a P08 são consistentes entre versões e substituem nomes e handles. O mapeamento de identidades e as capturas com nomes de usuários não estão no repositório.
+
+Na verificação de 01/10/2026, o repositório já estava **público** na página e na API do GitHub (`private=false`). Essa visibilidade foi preservada, sem mudança de configuração nesta atualização. As notas antigas de privacidade descreviam a fase inicial do acervo, não o estado atual.
 
 ## 9. Preservação, reprodução e direitos
 
@@ -457,18 +501,20 @@ O recibo [verification.json](verification.json) documenta a preparação origina
 sha256sum -c SHA256SUMS.txt
 ```
 
-Não publicar este diretório nem ativar GitHub Pages durante o teste cego. O relatório público anterior já revelou identidades, e a privacidade do GitHub não desfaz essa exposição.
+Não publicar este diretório nem ativar GitHub Pages sem autorização específica. O relatório anterior e o episódio do Desbugados revelam identidades; a privacidade do GitHub não desfaz essa exposição.
 
 ## 10. Fontes documentais e escopo desta atualização
 
-- [Relatório HTML original](report.html), referência anterior preservada integralmente.
+- [Relatório HTML atualizado](report.html), com a documentação original de produção e os novos resultados de percepção. A versão anterior permanece no histórico Git.
 - [Resumo JSON](summary.json), protocolo, contabilidade, estratégias, procedimentos, validações e intervenções.
-- [README](README.md), numeração privada, playlist e plano futuro de coleta.
+- [README](README.md), resumo, tempo/custo por modelo, links dos vídeos e destaque do episódio.
+- [Coleta pseudonimizada](docs/percepcao-2026-09-30.json), comentários, palpites, contagens e cálculos da percepção.
+- [Desbugados #076](https://www.youtube.com/watch?v=YXr0z2-87PQ), episódio de crítica dos vídeos e revelação dos modelos, conforme registro de Ricardo; título e canal verificados.
 - [Prompt original](prompt.txt), bytes preservados e hash documentado.
 - [Notas de reprodução](docs/reproducao.md) e [recibo original](verification.json).
 - READMEs, códigos, declarações musicais e manifestos nas fontes de cada modelo.
 
-Esta atualização acrescenta a versão Markdown completa e o download do HTML, sem nova execução de modelos, reconstrução de vídeos, mudança de identidade, coleta de percepção ou alteração dos resultados originais. A edição documental não preenche custos indisponíveis, não amplia o alcance da validação e não revela logs operacionais.
+Esta atualização incorpora o retrato de percepção coletado em 30/09/2026, relaciona tempos e gastos aos vídeos no YouTube e destaca o episódio do Desbugados. Markdown, HTML e ZIP do relatório foram atualizados. Não houve nova execução de modelos, reconstrução de vídeos ou alteração dos resultados originais de produção. O resumo original e os artefatos dos candidatos permanecem preservados; a coleta nova fica em JSON separado e pseudonimizado. A atualização não preenche custos indisponíveis, não amplia o alcance da validação técnica e não publica logs operacionais.
 
 ## 11. Prompt original integral
 

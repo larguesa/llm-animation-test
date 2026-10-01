@@ -19,15 +19,17 @@ O download do HTML requer login no GitHub e acesso ao repositório privado. O ZI
 
 O conteúdo da pasta `public` da entrega foi copiado diretamente para a raiz deste repositório. Essa disposição mantém os links relativos de `report.html` e `index.html` sem duplicar os MP4s. Os logs, históricos, chaves, ambientes virtuais e estado operacional bruto não foram copiados. Os READMEs e manifestos dos candidatos podem citar esses arquivos históricos, mas isso não significa que estejam incluídos aqui.
 
-## Ordem privada e tempo total
+## Ordem privada, tempo total e custo
 
-| Número | Modelo | Tempo total | Segundos | Vídeo original | Fontes |
-|---|---|---|---:|---|---|
-| 1 | openai/gpt-6-luna | 01:27:47 | 5267 | [MP4](luna/luna-t2s-pods.mp4) | [ZIP](luna/luna-fontes.zip) |
-| 2 | openai/gpt-6-astra | 01:36:14 | 5774 | [MP4](astra/astra-t2s-pods.mp4) | [ZIP](astra/astra-fontes.zip) |
-| 3 | anthropic/claude-opus-5.5 | 03:00:07 | 10807 | [MP4](opus/opus-t2s-pods.mp4) | [ZIP](opus/opus-fontes.zip) |
-| 4 | meta/muse-spark-1.3 | 00:47:17 | 2837 | [MP4](muse/muse-t2s-pods.mp4) | [ZIP](muse/muse-fontes.zip) |
-| 5 | xiaomi/mimo-v2.6-pro | 02:02:00 | 7320 | [MP4](mimo/mimo-t2s-pods.mp4) | [ZIP](mimo/mimo-fontes.zip) |
+| Número | Modelo | Tempo total | Segundos | Custo (USD) | Vídeo original | Fontes |
+|---|---|---|---:|---:|---|---|
+| 1 | openai/gpt-6-luna | 01:27:47 | 5267 | 0.467660 | [MP4](luna/luna-t2s-pods.mp4) | [ZIP](luna/luna-fontes.zip) |
+| 2 | openai/gpt-6-astra | 01:36:14 | 5774 | 10.607166 | [MP4](astra/astra-t2s-pods.mp4) | [ZIP](astra/astra-fontes.zip) |
+| 3 | anthropic/claude-opus-5.5 | 03:00:07 | 10807 | 25.918514 | [MP4](opus/opus-t2s-pods.mp4) | [ZIP](opus/opus-fontes.zip) |
+| 4 | meta/muse-spark-1.3 | 00:47:17 | 2837 | 3.121632 | [MP4](muse/muse-t2s-pods.mp4) | [ZIP](muse/muse-fontes.zip) |
+| 5 | xiaomi/mimo-v2.6-pro | 02:02:00 | 7320 | 0.330522 | [MP4](mimo/mimo-t2s-pods.mp4) | [ZIP](mimo/mimo-fontes.zip) |
+
+Custo é o gasto registrado na chave OpenRouter dedicada de cada candidato, incluindo serviços auxiliares e eventuais chamadas truncadas ou com erro cobradas. Não inclui supervisão, diagnósticos, infraestrutura ou assinaturas. Valores em dólares americanos, arredondados a seis casas; precisão original no campo `key_usage_total_usd` de cada candidato no [resumo estruturado](summary.json). Não é preço por token nem estimativa de uma nova execução.
 
 Tempo total é `ended_at - started_at`, em UTC, incluindo filas, retries, pausas, renderização e correções dentro do intervalo. Não é latência pura do modelo nem tempo exclusivo de render. Preparação anterior e publicação posterior não integram esse cálculo. A numeração é ordem de apresentação, não classificação.
 
